@@ -1,3 +1,6 @@
-title: Redirect to a different URL
+title: 別のURLにリダイレクトする
 description: >
-  TODO: write this
+  routerサービスを注入し、ルート名またはURLを指定して<code>transitionTo</code>を呼び出します。<code>replaceWith</code>も同じ働きをしますが、ブラウザーの履歴の現在のエントリーを置き換えます。
+
+link: >
+  ユーザーの操作でナビゲーションが始まる場合は、<code>&lt;LinkTo&gt;</code>でリンクをレンダリングします。

@@ -1,3 +1,6 @@
 title: Sağlayıcı Bileşenleri
 description: >
-  TODO: write this
+  Sağlayıcı bileşen, durumun (state) ve davranışın sahibidir; kendisi hiçbir işaretleme (markup) render etmez.
+  Durumu ve fonksiyonları yield eder, neyin render edileceğine ise çağıran karar verir.
+
+usage: Çağıran, yield edilen değerleri blok parametreleri olarak alır.

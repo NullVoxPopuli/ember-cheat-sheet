@@ -1,3 +1,5 @@
 title: Matematiko
 description: >
-  TODO: skribu ĉi tion
+  La komparaj helpantoj <code>gt</code>, <code>gte</code>, <code>lt</code>, kaj <code>lte</code> estas parto de Ember 7.3.
+  Ember ne havas helpantojn por aritmetiko.
+  Skribu funkcion, kaj voku ĝin en la ŝablono.

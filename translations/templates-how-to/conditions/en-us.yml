@@ -1,3 +1,13 @@
 title: Conditions
 description: >
-  TODO: Write this
+  <code>if</code> renders its block when the value is truthy.
+  In templates, an empty array is falsy, which is different from JavaScript.
+  <code>unless</code> is the opposite of <code>if</code>.
+
+inline: >
+  Inline, <code>if</code> returns its second argument when the condition is truthy.
+  If not, it returns its third argument.
+
+operators: >
+  Combine conditions with the comparison helpers and the logical helpers.
+  They are part of Ember 7.3 and need no import.

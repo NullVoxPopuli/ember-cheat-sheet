@@ -1,3 +1,13 @@
 title: Itérer
 description: >
-  TODO: à traduire
+  <code>each</code> rend son bloc une fois pour chaque élément d’un tableau ou d’un autre itérable.
+  Le deuxième paramètre de bloc est l’indice.
+  Le bloc <code>else</code> est rendu quand la liste est vide.
+
+key: >
+  Par défaut, Ember identifie chaque élément par son identité d’objet.
+  Quand la liste reçoit de nouveaux objets pour les mêmes éléments, donnez à <code>key</code> le nom d’une propriété dont la valeur est unique.
+  Ember conserve alors le DOM de chaque élément.
+
+each-in: >
+  <code>each-in</code> rend son bloc une fois pour chaque clé d’un objet.

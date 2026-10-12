@@ -1,3 +1,9 @@
-title: Do something when a property changes
+title: Fazer algo quando uma propriedade muda
 description: >
-  TODO: write this
+  Não observe a mudança. Derive o valor.
+  Um getter que lê estado rastreado (tracked) ou argumentos produz um novo resultado depois que um deles muda.
+  Adicione <code>@cached</code> quando o cálculo for custoso, para que o getter seja executado uma única vez a cada mudança.
+
+dom: >
+  Para atualizar o DOM quando um valor muda, passe o valor para um modifier.
+  O modifier é executado novamente quando um de seus argumentos muda.

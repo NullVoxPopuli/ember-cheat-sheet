@@ -1,3 +1,5 @@
 title: Olayları İşleme
 description: >
-  TODO: write this
+  <code>on</code> değiştirici fonksiyonu bir öğeye olay dinleyicisi ekler ve işleyici (handler) olayı alır.
+  Olaydan önce argüman geçmek için <code>fn</code> kullanın.
+  <code>this</code> her zaman bileşen olsun diye işleyiciyi bir sınıf alanında ok fonksiyonu olarak tanımlayın.

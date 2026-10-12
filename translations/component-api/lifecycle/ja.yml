@@ -1,3 +1,6 @@
-title: Lifecycle
+title: ライフサイクル
 description: >
-  TODO: write this
+  Glimmerコンポーネントには2つのライフサイクルフックがあります。<code>constructor</code>は、Emberがコンポーネントを作成するときに1回だけ実行されます。<code>willDestroy</code>は、Emberがコンポーネントを取り除くときに1回だけ実行されます。
+
+no-render-hooks: >
+  レンダリングや更新のためのフックはありません。ほかの値から値を算出するには、ゲッターを使います。DOM要素を操作するには、モディファイアを使います。

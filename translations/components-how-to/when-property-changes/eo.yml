@@ -1,3 +1,9 @@
-title: Faru ion kiam posedaĵo ŝanĝiĝas
+title: Faru ion, kiam propraĵo ŝanĝiĝas
 description: >
-  TODO: skribu ĉi tion
+  Ne observu la ŝanĝon. Derivu la valoron.
+  Getter-metodo, kiu legas spuratan staton aŭ argumentojn, donas novan rezulton, post kiam unu el ili ŝanĝiĝis.
+  Aldonu <code>@cached</code>, kiam la kalkulo estas multekosta, por ke la getter-metodo ruliĝu unu fojon por ĉiu ŝanĝo.
+
+dom: >
+  Por ĝisdatigi la DOM, kiam valoro ŝanĝiĝas, transdonu la valoron al modifilo.
+  La modifilo ruliĝas denove, kiam unu el ĝiaj argumentoj ŝanĝiĝas.

@@ -1,3 +1,3 @@
-title: Named Block
+title: 名前付きブロック
 description: >
-  TODO: write this
+  名前を持つブロックです。呼び出し側は、コンポーネントの呼び出しの中に<code>&lt;:name&gt;...&lt;/:name&gt;</code>の形で名前付きブロックを書きます。コンポーネントは複数の名前付きブロックを受け取ることができ、それぞれのブロックをどこにレンダリングするかを決めます。名前のないブロックは、<code>default</code>という名前のブロックです。

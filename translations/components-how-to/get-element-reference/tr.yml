@@ -1,3 +1,4 @@
 title: Bir öğeye referans al
 description: >
-  TODO: write this
+  Değiştirici fonksiyon (modifier), öğeyi ilk parametresi olarak alır.
+  Bir metot öğeye daha sonra ihtiyaç duyacaksa öğeyi saklayın.

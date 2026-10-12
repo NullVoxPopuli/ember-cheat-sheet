@@ -1,3 +1,4 @@
 title: Argumentoj
 description: >
-  Datumoj transdonitaj al komponanto, helpanto aŭ modifilo
+  Datumoj, kiujn la vokanto transdonas al komponanto, helpanto aŭ modifilo.
+  La nomo de komponanta argumento komenciĝas per <code>@</code>, kaj por la vokanto kaj ene de la komponanto.

@@ -1,3 +1,10 @@
-title: Do something when during teardown
+title: Fazer algo durante a desmontagem
 description: >
-  TODO: write this
+  Um modifier pode retornar uma função.
+  Essa função é executada antes de o elemento sair do DOM e antes de o modifier ser executado novamente.
+  Use-a para desfazer o que o modifier fez.
+
+destructor: >
+  Para um trabalho que não pertence a um elemento, use <code>registerDestructor</code>.
+  O destrutor é executado quando o Ember destrói o componente, e mantém a limpeza ao lado da configuração.
+  O hook <code>willDestroy</code> faz o mesmo trabalho.

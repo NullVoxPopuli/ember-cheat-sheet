@@ -6,16 +6,14 @@ description: >
   which is a tree-based structure for helping simplify syntax, building, and parsing templates.
   <br>
   If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
+
 plain-function: >
-  Note that plain function helpers are not supported yet without the help of a
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">Helper Manager</a>
-  such as what is provided by
-  <a href="https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill">ember-functions-as-helper-polyfill</a>. 
-  The RFC that proposes making this a default behavior,
-  <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>, is in-progress.
+  A plain function works as a helper.
+  No addon and no wrapper are necessary, because Ember calls the function with the positional arguments.
+  If there are named arguments, the function receives them in one object as its last parameter.
 
 expression-breakdown: >
   In this example, <code>a</code> can <em>only</em> be a helper. Each of
   <code>b</code>, <code>c</code>, and <code>e</code>
   cannot be anything other than plain values because functions cannot
-  be invoked without surrounding parenthesis.
+  be invoked without surrounding parentheses.

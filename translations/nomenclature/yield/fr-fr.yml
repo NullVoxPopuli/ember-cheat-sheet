@@ -1,3 +1,6 @@
 title: yield
 description: >
-  TODO: à traduire
+  <code>yield</code> rend le bloc que l’appelant a passé au composant.
+  Chaque valeur placée après <code>yield</code> devient un paramètre de bloc.
+  L’appelant reçoit les paramètres de bloc entre les barres verticales de <code>as |...|</code>.
+  Utilisez <code>to="name"</code> pour rendre un bloc nommé.

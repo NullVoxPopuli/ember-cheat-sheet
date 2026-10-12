@@ -1,3 +1,5 @@
 title: Mettre à jour des arguments
 description: >
-  TODO: à traduire
+  Un composant ne peut pas modifier ses arguments.
+  Pour changer une valeur, le propriétaire de la donnée passe aussi une fonction, et le composant appelle cette fonction.
+  Les données descendent, et les actions remontent.

@@ -1,5 +1,4 @@
-'use strict';
-
-module.exports = {
-  singleQuote: true,
+export default {
+  printWidth: 100,
+  plugins: ["prettier-plugin-ember-template-tag"],
 };

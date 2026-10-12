@@ -1,3 +1,5 @@
 title: Argümanlara Erişme
 description: >
-  TODO: write this
+  Şablonda <code>@name</code> kullanın.
+  Sınıfta <code>this.args.name</code> kullanın.
+  Bir argümanı okuyan getter, argüman değiştiğinde yeniden hesaplanır.

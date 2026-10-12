@@ -1,3 +1,12 @@
-title: Block
+title: Block (Bloque)
 description: >
-  TODO: write this
+  Un bloque es un ámbito anidado que tiene variables locales que no están disponibles fuera del bloque. Como en JavaScript, se puede seguir accediendo a las variables definidas fuera del bloque. A diferencia de Handlebars, no hay un ámbito implícito.
+
+curly: >
+  Un bloque se puede definir con llaves, usando <code>#</code> para indicar el inicio del bloque y <code>/</code> para indicar el final.
+
+component: >
+  Un bloque también se puede definir con la invocación de un componente, de forma muy parecida al bloque con llaves; las nuevas variables locales disponibles se definen después de <code>as</code>, entre las barras verticales <code>|...|</code>.
+
+component-after: >
+  Ten en cuenta que dentro de <code>MyComponent</code> debe haber un <code>'{{yield}}'</code> para que el bloque se renderice.

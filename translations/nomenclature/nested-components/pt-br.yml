@@ -1,3 +1,9 @@
-title: Nested Components
+title: Componentes Aninhados
 description: >
-  TODO: write this
+  Um componente em uma subpasta da pasta de componentes.
+  Em um arquivo <code>.gjs</code> ou <code>.gts</code>, importe o componente pelo caminho dele e dê a ele o nome que quiser.
+
+loose-mode: >
+  Em um template <code>.hbs</code>, o Ember encontra os componentes pelo nome.
+  Nesse caso, um componente em <code>app/components/nested/some-component</code>
+  é invocado com <code>::</code> entre os nomes das pastas.

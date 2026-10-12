@@ -1,7 +1,6 @@
 title: Sintakso
 description: >
-  "Sintakso ludas gravan rolon en la ŝablono, ĉar surbaze de la pozicio de esprimo en la ŝablono, vi scios <em>precize</em> kia aĵo ĝi estas: modifilo, helpanto aŭ simpla valoro."
+  Sintakso ludas gravan rolon en la ŝablono, ĉar surbaze de la pozicio de esprimo en la ŝablono, vi scios <em>precize</em> kia aĵo ĝi estas: modifilo, helpanto aŭ simpla valoro.
 
-plain-function: Simpla funkcio
 with-this: >
   Ne gravas kiel la referenco al modifilo aŭ helpanto estas skribita, estas la <em>sintakso</em> kiu determinas kio estas atendata.

@@ -1,3 +1,4 @@
 title: Accessing Array Indices
 description: >
-  TODO: Write this
+  Use the <code>get</code> helper with the index.
+  The index can be a literal or a value.

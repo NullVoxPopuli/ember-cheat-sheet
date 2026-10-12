@@ -4,3 +4,6 @@ description: >
 
 example: >
   In this example, an array is created and then available within the <code>let</code> block as <code>list</code>. It can be iterated over just as any array defined in JavaScript would be.
+
+javascript: >
+  In a <code>.gjs</code> or <code>.gts</code> file, a JavaScript variable outside of the <code>&lt;template&gt;</code> is frequently simpler.

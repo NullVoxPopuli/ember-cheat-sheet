@@ -1,3 +1,5 @@
 title: this
 description: >
-  TODO: write this
+  <code>this</code> é a instância da classe que contém o <code>&lt;template&gt;</code>.
+  Um componente template-only não tem classe, então nele <code>this</code> é <code>undefined</code>.
+  Em um template de rota em um arquivo <code>.hbs</code>, <code>this</code> é a instância do controller.

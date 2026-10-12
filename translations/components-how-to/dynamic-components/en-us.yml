@@ -1,0 +1,11 @@
+title: Render a component that is a value
+description: >
+  Every value that is a component can be invoked with angle brackets,
+  for example <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code>, or a block parameter.
+  Attributes and modifiers work as they do on every other component:
+  they go to the element that has <code>...attributes</code>.
+
+curly: >
+  An invocation with curly braces cannot take attributes or modifiers.
+  Use the <code>component</code> helper as a value to set arguments in advance,
+  and invoke the result with angle brackets.

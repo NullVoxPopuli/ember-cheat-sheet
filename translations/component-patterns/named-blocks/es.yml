@@ -1,3 +1,7 @@
-title: Named Blocks
+title: Bloques con nombre
 description: >
-  TODO: write this
+  Un componente con más de un bloque permite que quien lo invoca rellene más de un lugar.
+  Renderiza cada bloque con <code>yield</code> y <code>to="name"</code>.
+  Usa <code>has-block</code> para saber si quien lo invoca pasó un bloque.
+
+usage: Quien lo invoca rellena cada bloque por su nombre.

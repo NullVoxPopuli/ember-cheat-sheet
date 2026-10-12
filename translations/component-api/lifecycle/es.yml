@@ -1,3 +1,10 @@
-title: Lifecycle
+title: Ciclo de vida
 description: >
-  TODO: write this
+  Un componente Glimmer tiene dos hooks de ciclo de vida.
+  El <code>constructor</code> se ejecuta una sola vez, cuando Ember crea el componente.
+  <code>willDestroy</code> se ejecuta una sola vez, cuando Ember elimina el componente.
+
+no-render-hooks: >
+  No hay hooks para el renderizado ni para la actualización.
+  Para calcular un valor a partir de otros valores, usa un getter.
+  Para trabajar con un elemento del DOM, usa un modificador.

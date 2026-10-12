@@ -1,3 +1,10 @@
 title: Yaşam Döngüsü
 description: >
-  TODO: write this
+  Bir Glimmer bileşeninin iki yaşam döngüsü hook'u vardır.
+  <code>constructor</code>, Ember bileşeni oluşturduğunda bir kez çalışır.
+  <code>willDestroy</code>, Ember bileşeni kaldırdığında bir kez çalışır.
+
+no-render-hooks: >
+  Render veya güncelleme için hook yoktur.
+  Bir değeri başka değerlerden hesaplamak için getter kullanın.
+  Bir DOM öğesiyle çalışmak için değiştirici fonksiyon (modifier) kullanın.

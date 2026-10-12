@@ -1,3 +1,13 @@
 title: Yineleme
 description: >
-  TODO: Write this
+  <code>each</code>, bir dizinin veya başka bir yinelenebilir nesnenin (iterable) her elemanı için bloğunu bir kez render eder.
+  İkinci blok parametresi indekstir.
+  Liste boş olduğunda <code>else</code> bloğu render edilir.
+
+key: >
+  Varsayılan olarak Ember her elemanı nesne kimliğiyle tanır.
+  Liste aynı elemanlar için yeni nesneler aldığında, <code>key</code> için benzersiz değere sahip bir özelliğin adını verin.
+  Böylece Ember her elemanın DOM'unu korur.
+
+each-in: >
+  <code>each-in</code>, bir nesnenin her anahtarı için bloğunu bir kez render eder.

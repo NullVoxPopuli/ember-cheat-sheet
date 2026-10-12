@@ -1,3 +1,6 @@
 title: Provider Components
 description: >
-  TODO: write this
+  A provider component owns state and behavior, and renders no markup of its own.
+  It yields the state and the functions, and the caller decides what to render.
+
+usage: The caller receives the yielded values as block parameters.

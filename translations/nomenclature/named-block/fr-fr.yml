@@ -1,3 +1,6 @@
 title: Les Blocs Nommés - Named Block
 description: >
-  TODO: à traduire
+  C’est un bloc qui porte un nom.
+  L’appelant écrit un bloc nommé sous la forme <code>&lt;:name&gt;...&lt;/:name&gt;</code> à l’intérieur de l’invocation du composant.
+  Un composant peut recevoir plusieurs blocs nommés, et c’est lui qui décide où chaque bloc est rendu.
+  Un bloc sans nom est le bloc qui porte le nom <code>default</code>.

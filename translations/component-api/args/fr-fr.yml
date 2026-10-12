@@ -1,3 +1,10 @@
 title: Les Arguments
 description: >
-  TODO: à traduire
+  Les arguments sont les valeurs que l’appelant passe à un composant.
+  Un argument se lit avec <code>@name</code> dans le modèle, et avec <code>this.args.name</code> dans la classe.
+  Un composant ne peut pas assigner de valeur à ses arguments, car ils appartiennent à l’appelant.
+  Quand l’appelant passe une nouvelle valeur, tout ce qui lit l’argument se met à jour.
+
+signature: >
+  Dans un fichier <code>.gts</code>, une signature décrit les arguments, les blocs
+  et l’élément qui reçoit <code>...attributes</code>.

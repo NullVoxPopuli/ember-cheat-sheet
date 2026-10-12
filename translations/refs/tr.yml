@@ -1,10 +1,23 @@
 # Common translations for linking to
 # things in the docs
-title: References
+title: Referanslar
 
-let: <code>let</code> on the Ember API docs
-array: <code>array</code> on the Ember API docs
+let: Ember API dokümanlarında <code>let</code>
+array: Ember API dokümanlarında <code>array</code>
+router-service: Ember API dokümanlarında <code>RouterService</code>
+helper-module: Ember API dokümanlarında <code>@ember/helper</code>
+
+guides:
+  template-tag: Ember Rehberleri'nde Template Etiketi Biçimi
+  arguments: Ember Rehberleri'nde Bileşen Argümanları ve HTML Öznitelikleri
+  block-content: Ember Rehberleri'nde Blok İçeriği
+  component-state: Ember Rehberleri'nde Bileşen Durumu ve Eylemler
+  template-lifecycle: Ember Rehberleri'nde Şablon Yaşam Döngüsü, DOM ve Değiştirici Fonksiyonlar
+  looping: Ember Rehberleri'nde Listeler Üzerinde Döngü
+  helper-functions: Ember Rehberleri'nde Yardımcı Fonksiyonlar
+  conditional-content: Ember Rehberleri'nde Koşullu İçerik
 
 rfcs:
-  561: "RFC: Adding Numeric Comparison Operators to Templates"
-
+  560: "RFC: Şablonlara Eşitlik Operatörleri Ekleme"
+  561: "RFC: Şablonlara Sayısal Karşılaştırma Operatörleri Ekleme"
+  562: "RFC: Şablonlara Mantıksal Operatörler Ekleme"

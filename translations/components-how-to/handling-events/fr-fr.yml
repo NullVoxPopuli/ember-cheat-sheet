@@ -1,3 +1,5 @@
 title: Gérer les Évènements
 description: >
-  TODO: à traduire
+  Le modificateur <code>on</code> ajoute un écouteur d’évènement à un élément, et le gestionnaire reçoit l’évènement.
+  Utilisez <code>fn</code> pour passer des arguments placés avant l’évènement.
+  Définissez le gestionnaire comme une fonction fléchée dans un champ de classe, pour que <code>this</code> soit toujours le composant.

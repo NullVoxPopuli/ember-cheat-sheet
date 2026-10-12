@@ -1,3 +1,6 @@
-title: Nomitaj bloko
+title: Nomita Bloko
 description: >
-  TODO: skribu ĉi tion
+  Bloko kun nomo.
+  La vokanto skribas nomitan blokon kiel <code>&lt;:name&gt;...&lt;/:name&gt;</code> ene de la komponanta alvoko.
+  Komponanto povas ricevi multajn nomitajn blokojn, kaj ĝi decidas, kie ĉiu bloko bildiĝas.
+  Bloko sen nomo estas la bloko kun la nomo <code>default</code>.

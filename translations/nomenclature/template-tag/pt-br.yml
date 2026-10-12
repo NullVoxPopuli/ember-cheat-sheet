@@ -1,0 +1,6 @@
+title: Tag Template
+description: >
+  A tag <code>&lt;template&gt;</code> contém o template de um componente em um arquivo <code>.gjs</code> ou <code>.gts</code>.
+  O template pode usar qualquer valor JavaScript que esteja no escopo, por exemplo um import ou uma <code>const</code>.
+  Um arquivo que tem apenas um <code>&lt;template&gt;</code> exporta um componente template-only.
+  Um <code>&lt;template&gt;</code> no corpo de uma classe é o template dessa classe.

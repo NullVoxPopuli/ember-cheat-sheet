@@ -1,3 +1,13 @@
-title: Iteration
+title: Iteração
 description: >
-  TODO: Write this
+  <code>each</code> renderiza seu bloco uma vez para cada item de um array ou de outro iterável.
+  O segundo parâmetro de bloco é o índice.
+  O bloco <code>else</code> é renderizado quando a lista está vazia.
+
+key: >
+  Por padrão, o Ember identifica cada item pela identidade do objeto.
+  Quando a lista recebe novos objetos para os mesmos itens, passe para <code>key</code> o nome de uma propriedade que tenha um valor único.
+  Assim, o Ember mantém o DOM de cada item.
+
+each-in: >
+  <code>each-in</code> renderiza seu bloco uma vez para cada chave de um objeto.

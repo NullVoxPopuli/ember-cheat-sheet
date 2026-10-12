@@ -1,8 +1,8 @@
-title: Notation
+title: 記法
 description: >
-  Unlike JavaScript, Ember templates use
-  <a href="https://en.wikipedia.org/wiki/Polish_notation">
-    Polish Notation
-  </a>
-  or <em>Prefix Notation</em> which means that operators (or functions) <em>precede</em> their operands (arguments).
-js-equiv: which is the equivalent of this, in JavaScript
+  JavaScriptと違い、Emberのテンプレートは<a href="https://en.wikipedia.org/wiki/Polish_notation">ポーランド記法</a>、すなわち<em>前置記法</em>を使います。これは、演算子（または関数）がオペランド（引数）の<em>前に来る</em>ことを意味します。
+
+js-equiv: これは、JavaScriptでは次のコードに相当します
+
+notes: >
+  Ember 7.3では、<code>or</code>、<code>not</code>、そのほかの論理ヘルパーと比較ヘルパーはEmberの一部です。それより古いバージョンのEmberでは、<a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>などのアドオンがこれらを提供します。

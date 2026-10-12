@@ -1,3 +1,6 @@
-title: Template-Only Components
+title: テンプレートのみのコンポーネント
 description: >
-  TODO: write this
+  クラスを持たないコンポーネントです。<code>this</code>も状態もないため、出力は引数だけで決まります。<code>.gjs</code>ファイルに<code>&lt;template&gt;</code>だけがある場合、それはテンプレートのみのコンポーネントです。
+
+local: >
+  <code>&lt;template&gt;</code>を変数に代入すると、同じファイル内に小さなコンポーネントを定義できます。

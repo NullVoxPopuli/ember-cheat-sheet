@@ -1,3 +1,10 @@
 title: Argumentoj
 description: >
-  TODO: skribu ĉi tion
+  Argumentoj estas la valoroj, kiujn la vokanto transdonas al komponanto.
+  Legu argumenton en la ŝablono per <code>@name</code>, kaj en la klaso per <code>this.args.name</code>.
+  Komponanto ne povas valorizi siajn argumentojn, ĉar ili apartenas al la vokanto.
+  Kiam la vokanto transdonas novan valoron, ĉio, kio legas la argumenton, ĝisdatiĝas.
+
+signature: >
+  En dosiero <code>.gts</code>, signaturo priskribas la argumentojn, la blokojn,
+  kaj la elementon, kiu ricevas <code>...attributes</code>.

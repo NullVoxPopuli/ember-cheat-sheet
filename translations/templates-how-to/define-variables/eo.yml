@@ -10,3 +10,6 @@ example: >
   En ĉi tiu ekzemplo, tabelo estas kreita kaj tiam havebla ene de la
   <code>let</code> bloko kiel <code>list</code>. Ĝi povas esti ripetita super
   same kiel ajna tabelo difinita en Javaskripto estus.
+
+javascript: >
+  En dosiero <code>.gjs</code> aŭ <code>.gts</code>, Javaskripta variablo ekster la <code>&lt;template&gt;</code> ofte estas pli simpla.

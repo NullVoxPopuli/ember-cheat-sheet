@@ -1,3 +1,6 @@
-title: Provider Components
+title: Componentes Provider
 description: >
-  TODO: write this
+  Um componente provider é o dono do estado e do comportamento, e não renderiza nenhuma marcação própria.
+  Ele expõe o estado e as funções via yield, e quem o chama decide o que renderizar.
+
+usage: Quem chama recebe os valores expostos como parâmetros de bloco.

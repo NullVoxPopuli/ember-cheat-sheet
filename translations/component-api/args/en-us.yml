@@ -1,3 +1,10 @@
 title: Arguments
 description: >
-  TODO: write this
+  Arguments are the values that the caller passes to a component.
+  Read an argument in the template with <code>@name</code>, and in the class with <code>this.args.name</code>.
+  A component cannot assign to its arguments, because the caller owns them.
+  When the caller passes a new value, everything that reads the argument updates.
+
+signature: >
+  In a <code>.gts</code> file, a signature describes the arguments, the blocks,
+  and the element that receives <code>...attributes</code>.

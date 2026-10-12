@@ -1,31 +1,19 @@
-title: Grammar
+title: Gramática
 description: >
-  Ember's template grammar is an intentionally simple language so that the underlying GlimmerVM can be fast.
-  It is built on Symbolic Expressions
-  (<a href="https://en.wikipedia.org/wiki/S-expression">
-    S-Expressions
-  </a>)
-  which is a tree-based structure for helping simplify grammar, building, and parsing templates.
+  La gramática de las plantillas de Ember es un lenguaje intencionalmente simple, para que la GlimmerVM subyacente pueda ser rápida.
+  Está construida sobre expresiones simbólicas
+  (<a href="https://en.wikipedia.org/wiki/S-expression">S-Expressions</a>),
+  una estructura en forma de árbol que ayuda a simplificar la sintaxis, la construcción y el análisis de las plantillas.
   <br>
-  If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
-plain-function: >
-  Note that plain function helpers are not supported yet without
+  Si conoces TypeScript, podrías definir la gramática de las plantillas con un pseudocódigo como este,
 
-  the help of a
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">
-    Helper Manager
-  </a>
-  <br>
-  such as what is provided by the addon
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">
-    ember-could-get-used-to-this
-  </a>. However, there is RFC that propose making this a default behavior,
-  <a href="https://github.com/emberjs/rfcs/pull/756">
-    RFC#756: Default Helper Manager
-  </a>
+plain-function: >
+  Una función normal sirve como helper.
+  No hace falta ningún addon ni ningún envoltorio, porque Ember llama a la función con los argumentos posicionales.
+  Si hay argumentos con nombre, la función los recibe en un solo objeto como su último parámetro.
 
 expression-breakdown: >
-  In this example, <code>a</code> can _only_ be a helper. Each of
-  <code>b</code>, <code>c</code>, and <code>e</code>
-  cannot be anything other than plain values because functions cannot
-  be invoked without surrounding parenthesis.
+  En este ejemplo, <code>a</code> <em>solo</em> puede ser un helper.
+  <code>b</code>, <code>c</code> y <code>e</code>
+  no pueden ser otra cosa que valores simples, porque las funciones no se pueden
+  invocar sin paréntesis alrededor.

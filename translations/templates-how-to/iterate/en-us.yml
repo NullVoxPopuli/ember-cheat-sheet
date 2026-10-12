@@ -1,3 +1,13 @@
 title: Iteration
 description: >
-  TODO: Write this
+  <code>each</code> renders its block one time for each item of an array or of another iterable.
+  The second block parameter is the index.
+  The <code>else</code> block renders when the list is empty.
+
+key: >
+  By default, Ember identifies each item by its object identity.
+  When the list gets new objects for the same items, give <code>key</code> the name of a property that has a unique value.
+  Ember then keeps the DOM of each item.
+
+each-in: >
+  <code>each-in</code> renders its block one time for each key of an object.

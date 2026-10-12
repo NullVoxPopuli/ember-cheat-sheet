@@ -1,3 +1,7 @@
 title: Accéder aux Propriétés
 description: >
-  TODO: à traduire
+  Utilisez un chemin avec des points pour lire une propriété d’un argument, de <code>this</code> ou d’un paramètre de bloc.
+  Si une valeur du chemin est absente, le résultat est <code>undefined</code>, sans erreur.
+
+dynamic: >
+  Utilisez l’aide <code>get</code> quand le nom de la propriété est une valeur, ou quand ce n’est pas un identifiant valide.

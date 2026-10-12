@@ -1,3 +1,7 @@
-title: Redirect to a different URL
+title: Redirigir a otra URL
 description: >
-  TODO: write this
+  Inyecta el servicio router y llama a <code>transitionTo</code> con el nombre de una ruta o con una URL.
+  <code>replaceWith</code> hace lo mismo, pero reemplaza la entrada actual en el historial del navegador.
+
+link: >
+  Cuando es el usuario quien inicia la navegación, renderiza un enlace con <code>&lt;LinkTo&gt;</code>.

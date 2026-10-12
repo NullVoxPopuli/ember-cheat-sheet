@@ -9,19 +9,11 @@ description: >
   ki bu da sözdizimini, şablonları oluşturmayı ve ayrıştırmayı basitleştirmeye yardımcı olan ağaç tabanlı bir yapıdır.
   <br>
   TypeScript'e aşinaysanız, şablon yazım kurallarını bu sözde kodu kullanarak burada tanımlayabilirsiniz. Örneğin;
+
 plain-function: >
-  Basit fonksiyon yardımcılarının henüz bir <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">
-    Yardımcı Yöneticisi
-  </a>
-   yardımı olmadan desteklenmediğini unutmayın.
-  <br>
-  Örneğin yandaki bu eklenti tarafından sağlandığı gibi:
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">
-    ember-could-get-used-to-this
-  </a>. Ancak, bunu varsayılan bir özellik yapmayı öneren RFC vardır.
-  <a href="https://github.com/emberjs/rfcs/pull/756">
-    RFC#756: Default Helper Manager
-  </a>
+  Basit bir fonksiyon, yardımcı fonksiyon olarak çalışır.
+  Eklentiye veya sarmalayıcıya gerek yoktur, çünkü Ember fonksiyonu konumsal argümanlarla çağırır.
+  İsimlendirilmiş argümanlar varsa fonksiyon bunları son parametresi olarak tek bir nesne içinde alır.
 
 expression-breakdown: >
   Bu örnekte, <code>a</code> yalnızca yardımcı fonksiyon olabilir. <code>b</code>, <code>c</code>, ve <code>e</code>'nin her biri

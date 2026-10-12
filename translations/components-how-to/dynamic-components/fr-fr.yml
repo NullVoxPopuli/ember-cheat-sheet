@@ -1,0 +1,11 @@
+title: Rendre un composant stocké dans une valeur
+description: >
+  Toute valeur qui est un composant peut être invoquée avec des chevrons,
+  par exemple <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code>, ou un paramètre de bloc.
+  Les attributs et les modificateurs fonctionnent comme sur n’importe quel autre composant :
+  ils sont appliqués à l’élément qui porte <code>...attributes</code>.
+
+curly: >
+  Une invocation avec des accolades ne peut recevoir ni attributs ni modificateurs.
+  Utilisez l’aide <code>component</code> comme une valeur pour définir des arguments à l’avance,
+  puis invoquez le résultat avec des chevrons.

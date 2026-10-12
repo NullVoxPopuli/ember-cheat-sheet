@@ -1,3 +1,10 @@
-title: Do something when during teardown
+title: Do something during teardown
 description: >
-  TODO: write this
+  A modifier can return a function.
+  That function runs before the element leaves the DOM, and before the modifier runs again.
+  Use it to undo what the modifier did.
+
+destructor: >
+  For work that does not belong to an element, use <code>registerDestructor</code>.
+  The destructor runs when Ember destroys the component, and it keeps the cleanup next to the setup.
+  The <code>willDestroy</code> hook does the same job.

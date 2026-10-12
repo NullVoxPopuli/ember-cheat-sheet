@@ -1,3 +1,5 @@
 title: Accéder aux Arguments
 description: >
-  TODO: à traduire
+  Utilisez <code>@name</code> dans le modèle.
+  Utilisez <code>this.args.name</code> dans la classe.
+  Un getter qui lit un argument est recalculé quand cet argument change.

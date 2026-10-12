@@ -1,3 +1,6 @@
 title: yield
 description: >
-  TODO: write this
+  <code>yield</code> renders the block that the caller passed to the component.
+  Each value after <code>yield</code> becomes a block parameter.
+  The caller receives the block parameters between the pipes of <code>as |...|</code>.
+  Use <code>to="name"</code> to render a named block.

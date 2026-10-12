@@ -1,3 +1,6 @@
 title: yield
 description: >
-  TODO: skribu ĉi tion
+  <code>yield</code> bildigas la blokon, kiun la vokanto transdonis al la komponanto.
+  Ĉiu valoro post <code>yield</code> fariĝas blokparametro.
+  La vokanto ricevas la blokparametrojn inter la vertikalaj baroj de <code>as |...|</code>.
+  Uzu <code>to="name"</code> por bildigi nomitan blokon.

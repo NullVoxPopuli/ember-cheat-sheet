@@ -1,3 +1,6 @@
-title: Do something on render
+title: レンダリング時に処理を実行する
 description: >
-  TODO: write this
+  要素がDOMに追加されたときにコードを実行するには、モディファイアを使います。モディファイアは要素を受け取ります。<code>modifier</code>関数は、<a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a>パッケージが提供します。
+
+derive: >
+  コードが要素を必要としないなら、たいていレンダリングフックは不要です。ゲッターで値を算出すれば、テンプレートがレンダリング中にその値を読み取ります。

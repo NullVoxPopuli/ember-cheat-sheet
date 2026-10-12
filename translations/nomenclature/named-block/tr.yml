@@ -1,3 +1,6 @@
 title: İsimlendirilmiş Blok
 description: >
-  TODO: write this
+  Adı olan bir bloktur.
+  Çağıran, isimlendirilmiş bloğu bileşen çağrısının içine <code>&lt;:name&gt;...&lt;/:name&gt;</code> şeklinde yazar.
+  Bir bileşen birçok isimlendirilmiş blok alabilir ve her bloğun nerede render edileceğine kendisi karar verir.
+  Adı olmayan blok, <code>default</code> adlı bloktur.

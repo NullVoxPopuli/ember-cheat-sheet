@@ -1,13 +1,23 @@
 layout:
   application:
-    logo-alt-text: 'Ember Octane: a mais recente edição do Ember.js'
-    title: Ember.js Octane vs Classic Cheat Sheet
+    title: Ember.js Cheat Sheet
+    shortTitle: Cheat Sheet
+    logo-alt-text: 'O logo do Ember ao lado das palavras "Cheat Sheet" (em inglês)'
     description-1: >
-      Esse guia é uma cola para usar o '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js Octane'</a>'.
+      Esse guia é uma cola para usar o '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
+      Os exemplos são para o Ember 7.3 e usam a tag '<code>&lt;template&gt;</code>'.
       Ele não cobre tudo, mas é o suficiente para você começar!
       Pull requests são bem-vindos no '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'repositório do GitHub'</a>'.
     description-2: >
-      Para uma visão mais aprofundada sobre as formas de atualizar e as diferenças introduzidas na Octane, veja '<a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">'The Octane Upgrading Guide'</a>'.
+      Para informações mais aprofundadas, veja '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">'os Guias do Ember'</a>'.
+
+octane-v-classic: >
+  Se você está procurando a cola de Ember Octane vs Ember Classic, ela '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">'está aqui'</a>'.
+
+nav:
+  home: Início
+  templates: Templates
+  components: Componentes
 
 component:
   guide-section:
@@ -15,10 +25,11 @@ component:
     subsection:
       classic: Classic
       octane: Octane
+    references: 'Referências:'
     edit-translation-text: Editar tradução
   locale-menu:
     locale-select:
-      label: Translate the guide to
+      label: Traduzir o guia para
       placeholder: Selecionar idioma
     #
     # For convenience, the translations of locale menu options

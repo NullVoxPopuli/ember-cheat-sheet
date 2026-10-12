@@ -1,3 +1,5 @@
 title: Pritraktado de Eventoj
 description: >
-  TODO: skribu ĉi tion
+  La modifilo <code>on</code> aldonas eventaŭskultilon al elemento, kaj la traktilo ricevas la eventon.
+  Uzu <code>fn</code> por transdoni argumentojn antaŭ la evento.
+  Difinu la traktilon kiel sagfunkcion en klaskampo, por ke <code>this</code> ĉiam estu la komponanto.

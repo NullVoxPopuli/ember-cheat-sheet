@@ -1,3 +1,6 @@
-title: Named Block
+title: Named Block (Bloque con nombre)
 description: >
-  TODO: write this
+  Un bloque que tiene nombre.
+  Quien invoca el componente escribe un bloque con nombre como <code>&lt;:name&gt;...&lt;/:name&gt;</code> dentro de la invocación.
+  Un componente puede recibir muchos bloques con nombre, y decide dónde se renderiza cada uno.
+  Un bloque sin nombre es el bloque llamado <code>default</code>.

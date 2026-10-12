@@ -1,16 +1,18 @@
 layout:
   application:
-    logo-alt-text: "Ember Octane : la dernière édition d'Ember.js"
-    title: Aide-mémoire Ember.js Octane
+    title: Aide-mémoire Ember.js
+    shortTitle: Aide-mémoire
+    logo-alt-text: 'Le logo Ember à côté des mots « Cheat Sheet » (en anglais)'
     description-1: >
-      Ce guide est un aide-mémoire (<i>cheat sheet</i> en anglais) pour <a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">Ember.js Octane</a>.
-      Il n'est pas exhaustif mais devrait permettre de bien démarrer avec Octane !
-      Toutes les PRs sont les bienvenues sur <a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">le repository GitHub</a>.
+      Ce guide est un aide-mémoire (« cheat sheet » en anglais) pour '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">Ember.js</a>'.
+      Les exemples sont écrits pour Ember 7.3 et utilisent la balise '<code>&lt;template&gt;</code>'.
+      Il n’est pas exhaustif mais devrait permettre de bien démarrer !
+      Toutes les PRs sont les bienvenues sur '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">le repository GitHub</a>'.
     description-2: >
-      Pour plus d'information sur la manière de migrer vers Octane et les nouveautés qui y sont introduites, consultez <a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">Le guide de migration vers Octane</a>.
+      Pour des informations plus détaillées, consultez '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">les guides Ember</a>'.
 
 octane-v-classic: >
-  Si vous cherchez l'aide-mémoire « Ember Octane vs. Ember Classic », elle est <a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">ici</a>.
+  Si vous cherchez l’aide-mémoire « Ember Octane vs. Ember Classic », il est '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">ici</a>'.
 
 nav:
   home: Accueil
@@ -20,6 +22,9 @@ nav:
 component:
   guide-section:
     section: §
+    subsection:
+      classic: Classic
+      octane: Octane
     references: 'Références :'
     edit-translation-text: Modifier la traduction
   locale-menu:
@@ -39,3 +44,4 @@ component:
     locale-fr-FR: Français
     locale-ja: 日本語
     locale-pt-BR: Português (do Brasil)
+    locale-tr: Türkçe

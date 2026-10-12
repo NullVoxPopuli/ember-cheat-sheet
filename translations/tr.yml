@@ -2,12 +2,14 @@ layout:
   application:
     title: Ember.js Kopya Kağıdı
     shortTitle: Kopya Kağıdı
+    logo-alt-text: 'Ember logosu ve yanında (İngilizce) "Cheat Sheet" yazısı'
     description-1: >
-      Bu rehber '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js'</a>' kullanımı için bir kopya kağıdı işlevi sunar.
+      Bu rehber '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">'Ember.js'</a>' kullanımı için bir kopya kağıdı işlevi sunar.
+      Örnekler Ember 7.3 içindir ve '<code>&lt;template&gt;</code>' etiketini kullanır.
       Her şeyi kapsamaz ancak başlamanız için yeterlidir.
       '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'GitHub reposuna'</a>' PR'larınızı bekliyoruz.
     description-2: >
-      Detaylı bilgi için, '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">'Ember Rehberleri'</a>''ne bakınız.
+      Detaylı bilgi için, '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">'Ember Rehberleri'</a>' sayfasına bakınız.
 
 octane-v-classic: >
   Eğer Ember Octane ile Ember Klasik farkları için bir kopya kağıdını arıyorsanız, buradan '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">'ulaşabilirsiniz'</a>'.
@@ -20,6 +22,10 @@ nav:
 component:
   guide-section:
     section: §
+    subsection:
+      classic: Klasik
+      octane: Octane
+    references: 'Referanslar:'
     edit-translation-text: Çeviriyi Düzenle
   locale-menu:
     locale-select:

@@ -4,11 +4,10 @@
 
 .subsection .title-container {
   align-items: center;
-  border-bottom: 1px solid #E04E39;
+  border-bottom: 1px solid #e04e39;
   display: grid;
   grid-gap: 0 1rem;
-  grid-template-areas:
-    "permalink title";
+  grid-template-areas: "permalink title";
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
 }

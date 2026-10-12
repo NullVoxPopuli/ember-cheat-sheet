@@ -1,3 +1,10 @@
 title: Do something on render
 description: >
-  TODO: write this
+  Use a modifier to run code when an element enters the DOM.
+  The modifier receives the element.
+  The <code>modifier</code> function comes from the
+  <a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a> package.
+
+derive: >
+  If the code does not need an element, a render hook is usually not necessary.
+  Compute the value in a getter, and the template reads it during the render.

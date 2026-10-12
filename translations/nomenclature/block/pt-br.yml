@@ -1,3 +1,12 @@
-title: Block
+title: Bloco
 description: >
-  TODO: write this
+  Um bloco é um escopo aninhado com variáveis locais que não estão disponíveis fora do bloco. Assim como em JavaScript, variáveis definidas fora do bloco continuam acessíveis. Diferentemente do Handlebars, não há escopo implícito.
+
+curly: >
+  Um bloco pode ser definido com chaves, usando <code>#</code> para indicar o início do bloco e <code>/</code> para indicar o fim do bloco.
+
+component: >
+  Um bloco pode ser definido com invocações de componentes, de forma muito parecida com o bloco de chaves, em que as novas variáveis locais disponíveis são definidas depois do <code>as</code>, entre as barras verticais, <code>|...|</code>.
+
+component-after: >
+  Note que dentro de <code>MyComponent</code> deve haver um <code>'{{yield}}'</code> para que o bloco seja renderizado.

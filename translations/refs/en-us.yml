@@ -4,7 +4,20 @@ title: References
 
 let: <code>let</code> on the Ember API docs
 array: <code>array</code> on the Ember API docs
+router-service: <code>RouterService</code> on the Ember API docs
+helper-module: <code>@ember/helper</code> on the Ember API docs
+
+guides:
+  template-tag: Template Tag Format on the Ember Guides
+  arguments: Component Arguments and HTML Attributes on the Ember Guides
+  block-content: Block Content on the Ember Guides
+  component-state: Component State and Actions on the Ember Guides
+  template-lifecycle: Template Lifecycle, DOM, and Modifiers on the Ember Guides
+  looping: Looping Through Lists on the Ember Guides
+  helper-functions: Helper Functions on the Ember Guides
+  conditional-content: Conditional Content on the Ember Guides
 
 rfcs:
+  560: "RFC: Adding Equality Operators to Templates"
   561: "RFC: Adding Numeric Comparison Operators to Templates"
-
+  562: "RFC: Adding Logical Operators to Templates"

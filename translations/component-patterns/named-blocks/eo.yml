@@ -1,3 +1,7 @@
 title: Nomitaj Blokoj
 description: >
-  TODO: skribu ĉi tion
+  Komponanto kun pli ol unu bloko ebligas al la vokanto plenigi pli ol unu lokon.
+  Bildigu ĉiun blokon per <code>yield</code> kaj <code>to="name"</code>.
+  Uzu <code>has-block</code> por ekscii, ĉu la vokanto transdonis blokon.
+
+usage: La vokanto plenigas ĉiun blokon laŭ ĝia nomo.

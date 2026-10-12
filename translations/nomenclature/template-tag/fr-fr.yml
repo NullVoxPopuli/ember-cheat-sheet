@@ -1,0 +1,6 @@
+title: La Balise Template - Template Tag
+description: >
+  La balise <code>&lt;template&gt;</code> contient le modèle (<i>template</i>) d’un composant dans un fichier <code>.gjs</code> ou <code>.gts</code>.
+  Le modèle peut utiliser toute valeur JavaScript présente dans la portée, par exemple un import ou une <code>const</code>.
+  Un fichier qui ne contient qu’un <code>&lt;template&gt;</code> exporte un composant sans instance (<i>template-only component</i>).
+  Un <code>&lt;template&gt;</code> dans le corps d’une classe est le modèle de cette classe.

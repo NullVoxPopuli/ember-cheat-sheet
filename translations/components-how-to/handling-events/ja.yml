@@ -1,3 +1,3 @@
-title: Handling Events
+title: イベントを処理する
 description: >
-  TODO: write this
+  <code>on</code>モディファイアは要素にイベントリスナーを追加し、ハンドラーはイベントを受け取ります。イベントより前の位置に引数を渡すには、<code>fn</code>を使います。<code>this</code>が常にコンポーネントになるように、ハンドラーはクラスフィールドのアロー関数として定義します。

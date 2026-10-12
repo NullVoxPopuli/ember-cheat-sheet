@@ -1,3 +1,13 @@
 title: Kondiĉoj
 description: >
-  TODO: skribu ĉi tion
+  <code>if</code> bildigas sian blokon, kiam la valoro estas vereca (truthy).
+  En ŝablonoj, malplena tabelo estas malvereca (falsy), kio malsamas ol en Javaskripto.
+  <code>unless</code> estas la malo de <code>if</code>.
+
+inline: >
+  Enlinie, <code>if</code> redonas sian duan argumenton, kiam la kondiĉo estas vereca.
+  Se ne, ĝi redonas sian trian argumenton.
+
+operators: >
+  Kombinu kondiĉojn per la komparaj helpantoj kaj la logikaj helpantoj.
+  Ili estas parto de Ember 7.3 kaj ne bezonas importon.

@@ -1,3 +1,8 @@
 title: Sadece şablon bileşenler
 description: >
-  TODO: write this
+  Sınıfı olmayan bir bileşendir.
+  <code>this</code> ve durum (state) içermez, bu yüzden çıktısı yalnızca argümanlarına bağlıdır.
+  Yalnızca bir <code>&lt;template&gt;</code> içeren <code>.gjs</code> dosyası, sadece şablon olan bir bileşendir.
+
+local: >
+  Aynı dosyada küçük bileşenler tanımlamak için bir <code>&lt;template&gt;</code> etiketini bir değişkene atayın.

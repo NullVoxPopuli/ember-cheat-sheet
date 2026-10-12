@@ -1,8 +1,14 @@
-title: Notation
+title: Notação
 description: >
-  Unlike JavaScript, Ember templates use
+  Diferentemente do JavaScript, os templates do Ember usam a
   <a href="https://en.wikipedia.org/wiki/Polish_notation">
-    Polish Notation
+    Notação Polonesa
   </a>
-  or <em>Prefix Notation</em> which means that operators (or functions) <em>precede</em> their operands (arguments).
-js-equiv: which is the equivalent of this, in JavaScript
+  ou <em>Notação Prefixada</em>, o que significa que os operadores (ou funções) <em>precedem</em> seus operandos (argumentos).
+
+js-equiv: que é o equivalente a isto, em JavaScript
+
+notes: >
+  No Ember 7.3, <code>or</code>, <code>not</code> e os demais helpers lógicos e de comparação fazem parte do Ember.
+  Em versões mais antigas do Ember, um addon como o
+  <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> os fornece.

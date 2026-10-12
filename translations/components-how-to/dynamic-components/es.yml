@@ -1,0 +1,11 @@
+title: Renderizar un componente que es un valor
+description: >
+  Todo valor que sea un componente se puede invocar con paréntesis angulares,
+  por ejemplo <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code> o un parámetro de bloque.
+  Los atributos y los modificadores funcionan igual que en cualquier otro componente:
+  van al elemento que tiene <code>...attributes</code>.
+
+curly: >
+  Una invocación con llaves no puede recibir atributos ni modificadores.
+  Usa el helper <code>component</code> como valor para definir argumentos por adelantado,
+  e invoca el resultado con paréntesis angulares.

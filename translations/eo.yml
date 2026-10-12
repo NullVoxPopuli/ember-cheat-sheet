@@ -4,7 +4,8 @@ layout:
     shortTitle: Memorhelpo
     logo-alt-text: 'La Ember-emblemo apud la vortoj "Cheat Sheet" (en la angla)'
     description-1: >
-      Ĉi tiu gvidilo estas Memorhelpo por uzi '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
+      Ĉi tiu gvidilo estas Memorhelpo por uzi '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
+      La ekzemploj estas por Ember 7.3 kaj uzas la etikedon '<code>&lt;template&gt;</code>'.
       Ĝi ne kovras ĉion, sed ĝi devus komenci vin!
       Petoj por tiri estas bonvenaj ĉe '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'la GitHub-deponejo'</a>'.
     description-2: >

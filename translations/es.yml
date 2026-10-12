@@ -1,16 +1,23 @@
 layout:
   application:
-    logo-alt-text: 'Ember Octane: la última edición de Ember.js'
-    title: Ember.js Octane vs Classic Cheat Sheet
+    title: Hoja de referencia de Ember.js
+    shortTitle: Hoja de referencia
+    logo-alt-text: 'El logo de Ember junto a las palabras "Cheat Sheet" (en inglés)'
     description-1: >
-      Esta guía es una hoja de referencia para usar '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js Octane'</a>'.
+      Esta guía es una hoja de referencia para usar '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">Ember.js</a>'.
+      Los ejemplos son para Ember 7.3 y usan la etiqueta '<code>&lt;template&gt;</code>'.
       No cubre todo, ¡pero es una buena ayuda para empezar!
-      Las PRs son bienvenidas en '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'el repositorio de GitHub'</a>'.
+      Las PRs son bienvenidas en '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">el repositorio de GitHub</a>'.
     description-2: >
-      Para obtener información detallada sobre la ruta de actualización y las diferencias introducidas en Octane, puedes mirar '<a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">'The Octane Upgrading Guide'</a>'.
+      Para obtener información detallada, puedes mirar '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">las guías de Ember</a>'.
 
 octane-v-classic: >
-  Si estás buscando la guía de referencia Ember Octane vs Ember Classic, '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">'está aquí'</a>'.
+  Si estás buscando la guía de referencia Ember Octane vs Ember Classic, '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">está aquí</a>'.
+
+nav:
+  home: Inicio
+  templates: Plantillas
+  components: Componentes
 
 component:
   guide-section:
@@ -18,6 +25,7 @@ component:
     subsection:
       classic: Classic
       octane: Octane
+    references: 'Referencias:'
     edit-translation-text: Editar traducción
   locale-menu:
     locale-select:
@@ -36,3 +44,4 @@ component:
     locale-fr-FR: Francés
     locale-ja: 日本語
     locale-pt-BR: Portugués (de Brasil)
+    locale-tr: Türkçe

@@ -1,3 +1,7 @@
 title: Alidirekti al malsama URL
 description: >
-  TODO: skribu ĉi tion
+  Injektu la servon router kaj voku <code>transitionTo</code> kun itinernomo aŭ URL.
+  <code>replaceWith</code> faras la samon, sed ĝi anstataŭigas la nunan eron en la historio de la retumilo.
+
+link: >
+  Kiam la uzanto mem komencas la navigadon, bildigu ligilon per <code>&lt;LinkTo&gt;</code>.

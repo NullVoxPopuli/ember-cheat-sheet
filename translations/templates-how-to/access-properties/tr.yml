@@ -1,3 +1,7 @@
 title: Özelliklere Erişme
 description: >
-  TODO: Write this
+  Bir argümanın, <code>this</code>'in veya bir blok parametresinin özelliğini okumak için noktalı bir yol kullanın.
+  Yoldaki bir değer eksikse sonuç <code>undefined</code> olur ve hata oluşmaz.
+
+dynamic: >
+  Özellik adı bir değer olduğunda veya geçerli bir tanımlayıcı olmadığında <code>get</code> yardımcı fonksiyonunu kullanın.

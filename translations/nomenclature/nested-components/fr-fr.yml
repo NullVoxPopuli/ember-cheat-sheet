@@ -1,4 +1,9 @@
 title: Les Composants Imbriqués - Nested Components
 description: >
-  C'est un composant définit dans le dossier d'un autre composant. Par exemple, un composant définit dans
-  <code>app/components/nested/some-component</code> pourra être appelé de la manière suivante : <code>&lt;Nested::SomeComponent /&gt;</code>
+  C’est un composant placé dans un sous-dossier du dossier des composants.
+  Dans un fichier <code>.gjs</code> ou <code>.gts</code>, importez le composant depuis son chemin et donnez-lui le nom de votre choix.
+
+loose-mode: >
+  Dans un modèle <code>.hbs</code>, Ember trouve les composants par leur nom.
+  Dans ce cas, un composant situé dans <code>app/components/nested/some-component</code>
+  est invoqué avec <code>::</code> entre les noms de dossiers.

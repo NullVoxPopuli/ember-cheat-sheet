@@ -1,31 +1,11 @@
-title: Grammar
+title: 文法
 description: >
-  Ember's template grammar is an intentionally simple language so that the underlying GlimmerVM can be fast.
-  It is built on Symbolic Expressions
-  (<a href="https://en.wikipedia.org/wiki/S-expression">
-    S-Expressions
-  </a>)
-  which is a tree-based structure for helping simplify grammar, building, and parsing templates.
+  Emberのテンプレート文法は、基盤となるGlimmerVMが高速に動作できるよう、意図的にシンプルな言語になっています。この文法はシンボリック式（<a href="https://en.wikipedia.org/wiki/S-expression">S式</a>）に基づいています。S式は木構造で、テンプレートの構文、構築、解析を単純にするのに役立ちます。
   <br>
-  If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
-plain-function: >
-  Note that plain function helpers are not supported yet without
+  TypeScriptに慣れているなら、テンプレートの文法は次のような疑似コードで定義できます。
 
-  the help of a
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">
-    Helper Manager
-  </a>
-  <br>
-  such as what is provided by the addon
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">
-    ember-could-get-used-to-this
-  </a>. However, there is RFC that propose making this a default behavior,
-  <a href="https://github.com/emberjs/rfcs/pull/756">
-    RFC#756: Default Helper Manager
-  </a>
+plain-function: >
+  普通の関数は、そのままヘルパーとして動作します。Emberが位置引数を渡して関数を呼び出すので、アドオンもラッパーも必要ありません。名前付き引数がある場合、関数はそれらを1つのオブジェクトにまとめて最後のパラメーターとして受け取ります。
 
 expression-breakdown: >
-  In this example, <code>a</code> can _only_ be a helper. Each of
-  <code>b</code>, <code>c</code>, and <code>e</code>
-  cannot be anything other than plain values because functions cannot
-  be invoked without surrounding parenthesis.
+  この例では、<code>a</code>はヘルパーで<em>しか</em>ありえません。<code>b</code>、<code>c</code>、<code>e</code>はいずれも、ただの値以外にはなりえません。関数は、丸括弧で囲まなければ呼び出せないためです。

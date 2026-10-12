@@ -1,3 +1,7 @@
 title: Contextual Components
 description: >
-  TODO: write this
+  A component that yields other components with some arguments already set.
+  The <code>component</code> helper sets the arguments, and <code>hash</code> gives each component a name.
+  The caller gets parts that already know their parent.
+
+usage: The caller passes only the arguments that the parent did not set.

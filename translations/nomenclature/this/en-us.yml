@@ -1,11 +1,5 @@
 title: this
 description: >
-  <code>this</code> is always a reference to a template's backing class, if it has one.
-  For components, <code>this</code> is the <em>instance</em> of the backing class.
-  For route-templates, <code>this</code> is the <em>instance</em> of the backing controller.
-  For template-only components, <code>this</code> will be undefined.
-
-
-  FOOBAR is always a reference to a template's backing class, if it has one. For components, FOOBAR is the instance of the backing class. For route-templates, FOOBAR is the instance of the backing controller. For template-only components, FOOBAR will be FOOBAR.
-
-  <code>this</code> ĉiam estas referenco al la subtena klaso de ŝablono, se ĝi havas tian. Por komponantoj, <code>this</code> estas la kazo de la subtena klaso. Por itinero-ŝablonoj, <code>this</code> estas la kazo de la subtena regilo. Por nuraj ŝablonoj komponantoj, <code>this</code> estos <code>undefined</code>.
+  <code>this</code> is the instance of the class that contains the <code>&lt;template&gt;</code>.
+  A template-only component has no class, so there <code>this</code> is <code>undefined</code>.
+  In a route template in a <code>.hbs</code> file, <code>this</code> is the instance of the controller.

@@ -1,3 +1,8 @@
 title: Template-Only Components
 description: >
-  TODO: write this
+  A component without a class.
+  It has no <code>this</code> and no state, so its output depends only on its arguments.
+  A <code>.gjs</code> file that has only a <code>&lt;template&gt;</code> is a template-only component.
+
+local: >
+  Assign a <code>&lt;template&gt;</code> to a variable to define small components in the same file.

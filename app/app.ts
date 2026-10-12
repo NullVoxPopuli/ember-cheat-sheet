@@ -1,13 +1,21 @@
-import Application from '@ember/application';
+import "./styles/app.css";
 
-import config from 'ember-cheat-sheet/config/environment';
-import loadInitializers from 'ember-load-initializers';
-import Resolver from 'ember-resolver';
+import Application from "@ember/application";
+
+import { DocfyService } from "@docfy/ember";
+import IntlService from "ember-intl/services/intl";
+import PageTitleService from "ember-page-title/services/page-title";
+
+import Router from "./router.ts";
 
 export default class App extends Application {
-  modulePrefix = config.modulePrefix;
-  podModulePrefix = config.podModulePrefix;
-  Resolver = Resolver;
+  modules = {
+    "./router": Router,
+    ...import.meta.glob("./routes/**/*", { eager: true }),
+    ...import.meta.glob("./templates/**/*", { eager: true }),
+    ...import.meta.glob("./services/**/*", { eager: true }),
+    "./services/docfy": DocfyService,
+    "./services/intl": IntlService,
+    "./services/page-title": PageTitleService,
+  };
 }
-
-loadInitializers(App, config.modulePrefix);

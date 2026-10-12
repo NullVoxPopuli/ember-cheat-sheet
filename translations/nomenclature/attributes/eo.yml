@@ -14,4 +14,4 @@ splattributes: >
   En ĉi tiu malsupra ekzemplo, se ĉi tiu div reprezentus la ŝablonon por
   <code>SomeComponent</code> supre, la atributoj <code>class</code>,
   <code>data-test</code> kaj <code>style</code> estus aplikitaj al la
-  <code>div</code>.
+  div.

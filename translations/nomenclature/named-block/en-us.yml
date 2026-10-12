@@ -1,3 +1,6 @@
 title: Named Block
 description: >
-  TODO: write this
+  A block with a name.
+  The caller writes a named block as <code>&lt;:name&gt;...&lt;/:name&gt;</code> inside the component invocation.
+  A component can receive many named blocks, and it decides where each block renders.
+  A block without a name is the block with the name <code>default</code>.

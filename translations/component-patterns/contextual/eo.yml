@@ -1,3 +1,7 @@
-title: Kuntekstaj Komponentoj
+title: Kuntekstaj Komponantoj
 description: >
-  TODO: skribu ĉi tion
+  Komponanto, kiu liveras (yield) aliajn komponantojn kun kelkaj argumentoj jam difinitaj.
+  La helpanto <code>component</code> difinas la argumentojn, kaj <code>hash</code> donas nomon al ĉiu komponanto.
+  La vokanto ricevas partojn, kiuj jam konas sian gepatron.
+
+usage: La vokanto transdonas nur la argumentojn, kiujn la gepatro ne difinis.

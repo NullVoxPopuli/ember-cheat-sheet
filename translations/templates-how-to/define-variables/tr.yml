@@ -1,6 +1,9 @@
-title: Defining Variables
+title: Değişken Tanımlama
 description: >
-  Using <code>let</code> is the only way to define variables inline in templates. Because <code>let</code> is a block-helper, it means that scope is consistent with other blocks in templates as well. This is different from languages like JavaScript, where defining a variable is accessible to the "current scope" -- with <code>let</code>, you create a new scope.
+  Şablonlarda satır içi değişken tanımlamanın tek yolu <code>let</code> kullanmaktır. <code>let</code> bir blok yardımcı fonksiyonu olduğu için kapsam, şablonlardaki diğer bloklarla da tutarlıdır. Bu, tanımlanan bir değişkene "geçerli kapsam" içinden erişilebilen JavaScript gibi dillerden farklıdır: <code>let</code> ile yeni bir kapsam oluşturursunuz.
 
 example: >
-  In this example, an array is created and then available within the <code>let</code> block as <code>list</code>. It can be iterated over just as any array defined in JavaScript would be.
+  Bu örnekte bir dizi oluşturulur ve <code>let</code> bloğu içinde <code>list</code> adıyla kullanılabilir hale gelir. JavaScript'te tanımlanmış herhangi bir dizi gibi üzerinde yinelenebilir.
+
+javascript: >
+  Bir <code>.gjs</code> veya <code>.gts</code> dosyasında, <code>&lt;template&gt;</code> dışındaki bir JavaScript değişkeni çoğu zaman daha basittir.

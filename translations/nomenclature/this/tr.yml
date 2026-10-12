@@ -1,6 +1,5 @@
 title: this
 description: >
-  <code>this</code> eğer varsa her zaman arkadaki şablon sınıfını işaret eder.
-  Bileşenler için, <code>this</code> arkadaki sınıfın bir <em>örneğidir</em>.
-  Rota şablonları için, <code>this</code> arkadaki denetçi sınıfın bir <em>örneğidir</em>.
-  Sadece şablon olan bileşenler için, <code>this</code> tanımsızdır.
+  <code>this</code>, <code>&lt;template&gt;</code> etiketini içeren sınıfın örneğidir.
+  Sadece şablon olan bir bileşenin sınıfı yoktur, bu yüzden orada <code>this</code> değeri <code>undefined</code> olur.
+  Bir <code>.hbs</code> dosyasındaki rota şablonunda <code>this</code>, denetçinin (controller) örneğidir.

@@ -1,3 +1,10 @@
 title: Fonksiyonları Çağırma
 description: >
-  TODO: Write this
+  Bir fonksiyonu çağırmak için, yardımcı fonksiyonlarda olduğu gibi önce adını, ardından argümanlarını yazın.
+  Fonksiyon bir import, yerel bir değişken, bir argüman veya <code>this</code>'in bir özelliği olabilir.
+
+no-arguments: >
+  Argümanlarla yazılan bir fonksiyon her zaman çağrılır.
+  Argümansız yazılan bir fonksiyon, sonucu doğrudan sayfaya yazıldığında çağrılır.
+  Fonksiyon bir argümanın değeri olarak kullanılıyorsa, onu çağırmak için parantez ekleyin.
+  Parantezler olmadan argüman, fonksiyonun sonucunu değil kendisini alır.

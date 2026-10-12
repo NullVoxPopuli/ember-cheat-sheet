@@ -1,3 +1,6 @@
-title: Nested Components
+title: ネストしたコンポーネント
 description: >
-  TODO: write this
+  componentsフォルダーのサブフォルダーにあるコンポーネントです。<code>.gjs</code>や<code>.gts</code>ファイルでは、コンポーネントをそのパスからインポートし、好きな名前を付けます。
+
+loose-mode: >
+  <code>.hbs</code>テンプレートでは、Emberが名前でコンポーネントを探します。その場合、<code>app/components/nested/some-component</code>にあるコンポーネントは、フォルダー名の間に<code>::</code>を入れて呼び出します。

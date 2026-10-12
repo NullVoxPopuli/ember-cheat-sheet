@@ -1,3 +1,5 @@
-title: Handling Events
+title: Manejar eventos
 description: >
-  TODO: write this
+  El modificador <code>on</code> añade un listener de eventos a un elemento, y el manejador recibe el evento.
+  Usa <code>fn</code> para pasar argumentos antes del evento.
+  Define el manejador como una función flecha en un campo de clase, para que <code>this</code> sea siempre el componente.

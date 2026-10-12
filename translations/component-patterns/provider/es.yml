@@ -1,3 +1,6 @@
-title: Provider Components
+title: Componentes proveedores
 description: >
-  TODO: write this
+  Un componente proveedor es el dueño del estado y del comportamiento, y no renderiza marcado propio.
+  Entrega con yield el estado y las funciones, y quien lo invoca decide qué renderizar.
+
+usage: Quien lo invoca recibe los valores entregados como parámetros de bloque.

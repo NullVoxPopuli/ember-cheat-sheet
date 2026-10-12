@@ -1,3 +1,5 @@
 title: Accessing Arguments
 description: >
-  TODO: write this
+  Use <code>@name</code> in the template.
+  Use <code>this.args.name</code> in the class.
+  A getter that reads an argument computes again when the argument changes.

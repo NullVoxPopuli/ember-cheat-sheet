@@ -1,46 +1,40 @@
-[![This project uses GitHub Actions for continuous integration.](https://github.com/nullvoxpopuli/ember-cheat-sheet/workflows/CI/CD/badge.svg)](https://github.com/nullvoxpopuli/ember-cheat-sheet/actions?query=workflow%3ACI%2FCD)
+[![This project uses GitHub Actions for continuous integration.](https://github.com/nullvoxpopuli/ember-cheat-sheet/actions/workflows/ci.yml/badge.svg)](https://github.com/nullvoxpopuli/ember-cheat-sheet/actions/workflows/ci.yml)
 [![This project uses Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ember/ember-cheat-sheet)
 
 # Ember Cheat Sheet
 
-Check out [the deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs). Yep, it uses Ember Octane!
+Check out [the deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs).
 
-You can see side-by-side examples of [Ember Octane](https://emberjs.com/editions/octane) and Ember Classic.
-
+The cheat sheet shows how to do common tasks in Ember 7.3,
+with templates, components, and the `<template>` tag.
 
 ## How to Contribute
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
-
 ## Continuous integration
 
-We use [GitHub Actions](.github/workflows/ci-cd.yml) to lint and test the app when a PR (pull request) is created and merged.
+[GitHub Actions](.github/workflows/ci.yml) lints, tests, and builds the app for each pull request and for each push to `main`.
 
-Run the following commands to lint and test from local machine:
+Run the same checks on your machine:
 
 ```bash
-yarn lint
-yarn test
+pnpm lint
+pnpm test
+pnpm build
 ```
 
 To fix linting errors, try the following command:
 
 ```bash
-yarn lint:fix
+pnpm lint:fix
 ```
 
+## Build output
 
-## Continuous deployment
-
-We use [GitHub Actions](.github/workflows/ci-cd.yml) to deploy the app to `gh-pages` branch when a PR is merged.
-
-If you are a repo maintainer, you can run the following command to deploy from local machine:
-
-```bash
-yarn deploy
-```
-
+`pnpm build` writes a static site to `dist/`.
+Each page of the cheat sheet is prerendered to its own HTML file,
+so any static host can serve the folder.
 
 ## Credits
 

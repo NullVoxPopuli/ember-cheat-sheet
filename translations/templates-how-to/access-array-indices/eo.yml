@@ -1,3 +1,4 @@
-title: Aliro al Array Propraĵoj
+title: Aliro al Tabelaj Indeksoj
 description: >
-  TODO: skribu ĉi tion
+  Uzu la helpanton <code>get</code> kun la indekso.
+  La indekso povas esti literalo aŭ valoro.

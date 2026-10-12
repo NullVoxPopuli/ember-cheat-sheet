@@ -2,9 +2,10 @@ layout:
   application:
     title: Ember.js Cheat Sheet
     shortTitle: Cheat Sheet
-    logo-alt-text: 'The Ember logo next to the words "Cheet Sheet" (in English)'
+    logo-alt-text: 'The Ember logo next to the words "Cheat Sheet" (in English)'
     description-1: >
-      This guide is a cheat sheet for using '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
+      This guide is a cheat sheet for using '<a href="https://emberjs.com/" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
+      The examples are for Ember 7.3 and use the '<code>&lt;template&gt;</code>' tag.
       It doesn't cover everything, but it should get you started!
       PRs welcome at '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'the GitHub repository'</a>'.
     description-2: >

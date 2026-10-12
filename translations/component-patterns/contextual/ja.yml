@@ -1,3 +1,5 @@
-title: Contextual Components
+title: コンテキストコンポーネント
 description: >
-  TODO: write this
+  一部の引数をあらかじめ設定したほかのコンポーネントをyieldするコンポーネントです。<code>component</code>ヘルパーが引数を設定し、<code>hash</code>がそれぞれのコンポーネントに名前を付けます。呼び出し側は、親をすでに知っている部品を受け取ります。
+
+usage: 呼び出し側は、親が設定しなかった引数だけを渡します。

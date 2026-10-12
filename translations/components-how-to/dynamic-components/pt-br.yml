@@ -1,0 +1,11 @@
+title: Renderizar um componente que é um valor
+description: >
+  Todo valor que é um componente pode ser invocado com colchetes angulares (angle brackets),
+  por exemplo <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code> ou um parâmetro de bloco.
+  Atributos e modifiers funcionam como em qualquer outro componente:
+  eles vão para o elemento que tem <code>...attributes</code>.
+
+curly: >
+  Uma invocação com chaves não aceita atributos nem modifiers.
+  Use o helper <code>component</code> como um valor para definir argumentos antecipadamente,
+  e invoque o resultado com colchetes angulares.

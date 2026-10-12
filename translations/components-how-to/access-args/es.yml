@@ -1,3 +1,5 @@
-title: Accessing Arguments
+title: Acceder a los argumentos
 description: >
-  TODO: write this
+  Usa <code>@name</code> en la plantilla.
+  Usa <code>this.args.name</code> en la clase.
+  Un getter que lee un argumento se vuelve a calcular cuando el argumento cambia.

@@ -1,11 +1,11 @@
-@import './hljs-theme.css';
-@import './components/index.css';
-@import './layout.css';
-@import './utils.css';
+@import "@docfy/ember/code-block.css";
+@import "./components/index.css";
+@import "./layout.css";
+@import "./utils.css";
 
 :root {
   /* colors */
-  --ember-brand: #E04E39;
+  --ember-brand: #e04e39;
   --ember-black: #212121;
   --ember-burnt-ember: #9b2918;
   --ember-gray: #817f7f;
@@ -23,7 +23,6 @@
   small: 60rem;
 }
 
-
 html {
   font-size: 16px;
   height: 100%;
@@ -32,13 +31,14 @@ html {
 body {
   background-color: rgb(244, 246, 248);
   color: rgb(66, 71, 79);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
   padding: 1.5rem 2rem 3rem 2rem;
 }
-
 
 * {
   margin: 0;
@@ -55,7 +55,6 @@ body {
   margin: 0 auto;
   position: relative;
 }
-
 
 h1 {
   font-size: 1.75rem;
@@ -102,8 +101,6 @@ nav {
   display: flex;
   gap: 0.5rem;
 }
-
-
 
 @media screen and (max-width: 30rem) {
   body {

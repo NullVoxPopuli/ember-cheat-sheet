@@ -1,6 +1,6 @@
-title: Syntax
+title: 構文
 description: >
-  Syntax plays an important role in the template, because based on the position of an expression in the template, you'll know <em>exactly</em> what type of thing it is':' a modifier, a helper, or plain value
+  テンプレートでは構文が重要な役割を果たします。テンプレート内での式の位置によって、それがモディファイア、ヘルパー、ただの値のどれなのかが<em>正確に</em>わかるからです。
 
 with-this: >
-  It doesn't matter how the reference to modifier or helper are written, it is the <em>syntax</em> which determines what is expected.
+  モディファイアやヘルパーへの参照がどう書かれているかは関係ありません。何が期待されるかを決めるのは<em>構文</em>です。

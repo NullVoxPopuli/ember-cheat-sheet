@@ -1,3 +1,6 @@
-title: Provizanto Komponanto
+title: Provizantaj Komponantoj
 description: >
-  TODO: skribu ĉi tion
+  Provizanta komponanto posedas staton kaj konduton, kaj bildigas neniun propran markadon.
+  Ĝi liveras (yield) la staton kaj la funkciojn, kaj la vokanto decidas, kion bildigi.
+
+usage: La vokanto ricevas la liveritajn valorojn kiel blokparametrojn.

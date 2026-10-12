@@ -1,3 +1,12 @@
-title: Block
+title: ブロック
 description: >
-  TODO: write this
+  ブロックはネストしたスコープで、ブロックの外では使えないローカル変数を持ちます。JavaScriptと同じく、ブロックの外で定義された変数にはブロックの中からもアクセスできます。Handlebarsと違い、暗黙のスコープはありません。
+
+curly: >
+  ブロックは波括弧で定義でき、<code>#</code>がブロックの開始を、<code>/</code>がブロックの終了を表します。
+
+component: >
+  ブロックはコンポーネントの呼び出しでも定義できます。波括弧のブロックと同様に、新しく使えるローカル変数は<code>as</code>に続くパイプ<code>|...|</code>の間に定義します。
+
+component-after: >
+  なお、ブロックがレンダリングされるには、<code>MyComponent</code>の中に<code>'{{yield}}'</code>が必要です。

@@ -1,3 +1,5 @@
 title: Matematik
 description: >
-  TODO: Write this
+  <code>gt</code>, <code>gte</code>, <code>lt</code> ve <code>lte</code> karşılaştırma yardımcı fonksiyonları Ember 7.3'ün parçasıdır.
+  Ember'de aritmetik için yardımcı fonksiyon yoktur.
+  Bir fonksiyon yazın ve onu şablonda çağırın.

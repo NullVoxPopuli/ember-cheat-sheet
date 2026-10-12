@@ -1,3 +1,8 @@
-title: Ŝablona-Nur Komponanto
+title: Nurŝablonaj Komponantoj
 description: >
-  TODO: skribu ĉi tion
+  Komponanto sen klaso.
+  Ĝi havas nek <code>this</code> nek staton, do ĝia rezulto dependas nur de ĝiaj argumentoj.
+  Dosiero <code>.gjs</code>, kiu enhavas nur <code>&lt;template&gt;</code>, estas nurŝablona komponanto.
+
+local: >
+  Asignu <code>&lt;template&gt;</code> al variablo por difini malgrandajn komponantojn en la sama dosiero.
