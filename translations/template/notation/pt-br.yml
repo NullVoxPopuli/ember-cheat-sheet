@@ -10,5 +10,5 @@ js-equiv: que é o equivalente a isto, em JavaScript
 
 notes: >
   No Ember 7.3, <code>or</code>, <code>not</code> e os demais helpers lógicos e de comparação fazem parte do Ember.
-  Em versões mais antigas do Ember, um addon como o
+  Em templates <code>.hbs</code> e em versões mais antigas do Ember, um addon como o
   <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> os fornece.

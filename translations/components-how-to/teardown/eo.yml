@@ -1,7 +1,7 @@
 title: Faru ion dum detruo
 description: >
   Modifilo povas redoni funkcion.
-  Tiu funkcio ruliĝas antaŭ ol la elemento forlasas la DOM, kaj antaŭ ol la modifilo ruliĝas denove.
+  Tiu funkcio ruliĝas post kiam Ember forigas la elementon el la DOM, kaj antaŭ ol la modifilo ruliĝas denove.
   Uzu ĝin por malfari tion, kion la modifilo faris.
 
 destructor: >

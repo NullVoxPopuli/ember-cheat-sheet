@@ -1,7 +1,7 @@
 title: Do something during teardown
 description: >
   A modifier can return a function.
-  That function runs before the element leaves the DOM, and before the modifier runs again.
+  That function runs after Ember removes the element from the DOM, and before the modifier runs again.
   Use it to undo what the modifier did.
 
 destructor: >

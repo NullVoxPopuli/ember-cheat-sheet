@@ -10,4 +10,4 @@ inline: >
 
 operators: >
   Combina condiciones con los helpers de comparación y los helpers lógicos.
-  Forman parte de Ember 7.3 y no necesitan import.
+  En una etiqueta <code>&lt;template&gt;</code>, forman parte de Ember 7.3 y no necesitan import.

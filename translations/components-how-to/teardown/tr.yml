@@ -1,7 +1,7 @@
 title: Yok edilme anında bir şey yap
 description: >
   Değiştirici fonksiyon (modifier) bir fonksiyon döndürebilir.
-  Bu fonksiyon, öğe DOM'dan ayrılmadan önce ve değiştirici fonksiyon yeniden çalışmadan önce çalışır.
+  Bu fonksiyon, Ember öğeyi DOM'dan kaldırdıktan sonra ve değiştirici fonksiyon yeniden çalışmadan önce çalışır.
   Değiştirici fonksiyonun yaptığını geri almak için onu kullanın.
 
 destructor: >

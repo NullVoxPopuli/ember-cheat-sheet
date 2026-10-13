@@ -8,5 +8,5 @@ js-equiv: "Ce qui en JavaScript est équivalent à :"
 
 notes: >
   Dans Ember 7.3, <code>or</code>, <code>not</code> et les autres Aides logiques et de comparaison font partie d’Ember.
-  Dans les versions plus anciennes d’Ember, une extension comme
+  Dans les modèles <code>.hbs</code> et dans les versions plus anciennes d’Ember, une extension comme
   <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> les fournit.

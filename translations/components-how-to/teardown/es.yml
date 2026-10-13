@@ -1,7 +1,7 @@
 title: Hacer algo durante la limpieza (teardown)
 description: >
   Un modificador puede devolver una función.
-  Esa función se ejecuta antes de que el elemento salga del DOM, y antes de que el modificador se ejecute de nuevo.
+  Esa función se ejecuta después de que Ember quita el elemento del DOM, y antes de que el modificador se ejecute de nuevo.
   Úsala para deshacer lo que hizo el modificador.
 
 destructor: >
