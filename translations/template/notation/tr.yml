@@ -9,5 +9,5 @@ js-equiv: Bu JavaScript'te şuna karşılık gelir.
 
 notes: >
   Ember 7.3'te <code>or</code>, <code>not</code> ve diğer mantıksal ve karşılaştırma yardımcı fonksiyonları Ember'in bir parçasıdır.
-  Ember'in eski sürümlerinde bunları
+  <code>.hbs</code> şablonlarında ve Ember'in eski sürümlerinde bunları
   <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> gibi bir eklenti sağlar.

@@ -10,4 +10,4 @@ inline: >
 
 operators: >
   Koşulları karşılaştırma ve mantıksal yardımcı fonksiyonlarla birleştirin.
-  Bunlar Ember 7.3'ün parçasıdır ve import gerektirmez.
+  Bir <code>&lt;template&gt;</code> etiketinde bunlar Ember 7.3'ün parçasıdır ve import gerektirmez.

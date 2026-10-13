@@ -10,4 +10,4 @@ inline: >
 
 operators: >
   Combinez les conditions avec les aides de comparaison et les aides logiques.
-  Elles font partie d’Ember 7.3 et ne nécessitent aucun import.
+  Dans une balise <code>&lt;template&gt;</code>, elles font partie d’Ember 7.3 et ne nécessitent aucun import.

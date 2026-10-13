@@ -1,6 +1,6 @@
 title: Helpers y modificadores integrados
 description: >
-  En Ember 7.3, estos nombres funcionan en cualquier plantilla sin necesidad de un import:
+  En Ember 7.3, estos nombres funcionan en cualquier etiqueta <code>&lt;template&gt;</code> sin necesidad de un import:
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code> y <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Los demás helpers necesitan un import en un archivo <code>.gjs</code> o <code>.gts</code>.
-  En una plantilla <code>.hbs</code>, Ember los encuentra por su nombre.
+  En una plantilla <code>.hbs</code>, Ember encuentra los helpers por su nombre.
+  De los nombres anteriores, allí solo están integrados <code>array</code>, <code>fn</code>, <code>hash</code> y <code>on</code>.
+  Un addon debe proporcionar los demás.

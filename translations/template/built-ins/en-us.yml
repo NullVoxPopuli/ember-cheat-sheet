@@ -1,6 +1,6 @@
 title: Built-in Helpers and Modifiers
 description: >
-  In Ember 7.3, these names work in every template without an import:
+  In Ember 7.3, these names work in every <code>&lt;template&gt;</code> tag without an import:
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code>, and <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Other helpers need an import in a <code>.gjs</code> or <code>.gts</code> file.
-  In a <code>.hbs</code> template, Ember finds them by name.
+  In a <code>.hbs</code> template, Ember finds helpers by name.
+  Of the names above, only <code>array</code>, <code>fn</code>, <code>hash</code>, and <code>on</code> are built in there.
+  An addon must supply the others.

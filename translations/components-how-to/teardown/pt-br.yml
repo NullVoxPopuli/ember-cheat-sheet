@@ -1,7 +1,7 @@
 title: Fazer algo durante a desmontagem
 description: >
   Um modifier pode retornar uma função.
-  Essa função é executada antes de o elemento sair do DOM e antes de o modifier ser executado novamente.
+  Essa função é executada depois que o Ember remove o elemento do DOM e antes de o modifier ser executado novamente.
   Use-a para desfazer o que o modifier fez.
 
 destructor: >

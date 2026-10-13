@@ -1,6 +1,6 @@
 title: Yerleşik Yardımcı ve Değiştirici Fonksiyonlar
 description: >
-  Ember 7.3'te şu adlar her şablonda import gerekmeden çalışır:
+  Ember 7.3'te şu adlar her <code>&lt;template&gt;</code> etiketinde import gerekmeden çalışır:
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code> ve <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Diğer yardımcı fonksiyonlar bir <code>.gjs</code> veya <code>.gts</code> dosyasında import gerektirir.
-  Bir <code>.hbs</code> şablonunda Ember onları adlarıyla bulur.
+  Bir <code>.hbs</code> şablonunda Ember yardımcı fonksiyonları adlarıyla bulur.
+  Yukarıdaki adlardan orada yalnızca <code>array</code>, <code>fn</code>, <code>hash</code> ve <code>on</code> yerleşiktir.
+  Diğerlerini bir eklenti sağlamalıdır.

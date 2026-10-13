@@ -1,7 +1,7 @@
 title: Faire une Action Lors de la Destruction
 description: >
   Un modificateur (<i>modifier</i>) peut retourner une fonction.
-  Cette fonction s’exécute avant que l’élément quitte le DOM, et avant que le modificateur s’exécute à nouveau.
+  Cette fonction s’exécute après qu’Ember a retiré l’élément du DOM, et avant que le modificateur s’exécute à nouveau.
   Utilisez-la pour défaire ce que le modificateur a fait.
 
 destructor: >

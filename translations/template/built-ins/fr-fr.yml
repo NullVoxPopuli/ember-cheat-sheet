@@ -1,6 +1,6 @@
 title: Les Aides et Modificateurs Intégrés
 description: >
-  Dans Ember 7.3, ces noms fonctionnent dans tous les modèles sans import :
+  Dans Ember 7.3, ces noms fonctionnent dans toutes les balises <code>&lt;template&gt;</code> sans import :
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code> et <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Les autres Aides (<i>Helpers</i>) doivent être importées dans un fichier <code>.gjs</code> ou <code>.gts</code>.
-  Dans un modèle <code>.hbs</code>, Ember les trouve par leur nom.
+  Dans un modèle <code>.hbs</code>, Ember trouve les Aides par leur nom.
+  Parmi les noms ci-dessus, seuls <code>array</code>, <code>fn</code>, <code>hash</code> et <code>on</code> y sont intégrés.
+  Une extension doit fournir les autres.

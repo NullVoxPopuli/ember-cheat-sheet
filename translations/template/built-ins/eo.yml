@@ -1,6 +1,6 @@
 title: Enkonstruitaj Helpantoj kaj Modifiloj
 description: >
-  En Ember 7.3, ĉi tiuj nomoj funkcias en ĉiu ŝablono sen importo:
+  En Ember 7.3, ĉi tiuj nomoj funkcias en ĉiu etikedo <code>&lt;template&gt;</code> sen importo:
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code>, kaj <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Aliaj helpantoj bezonas importon en dosiero <code>.gjs</code> aŭ <code>.gts</code>.
-  En ŝablono <code>.hbs</code>, Ember trovas ilin laŭ nomo.
+  En ŝablono <code>.hbs</code>, Ember trovas helpantojn laŭ nomo.
+  El la supraj nomoj, nur <code>array</code>, <code>fn</code>, <code>hash</code>, kaj <code>on</code> estas enkonstruitaj tie.
+  Aldonaĵo devas provizi la aliajn.

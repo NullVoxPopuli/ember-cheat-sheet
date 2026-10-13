@@ -1,6 +1,6 @@
 title: Helpers e Modifiers Nativos
 description: >
-  No Ember 7.3, estes nomes funcionam em qualquer template sem import:
+  No Ember 7.3, estes nomes funcionam em qualquer tag <code>&lt;template&gt;</code> sem import:
   <code>and</code>, <code>array</code>, <code>element</code>, <code>eq</code>, <code>fn</code>,
   <code>gt</code>, <code>gte</code>, <code>hash</code>, <code>lt</code>, <code>lte</code>,
   <code>neq</code>, <code>not</code>, <code>on</code> e <code>or</code>.
@@ -9,4 +9,6 @@ description: >
 
 imports: >
   Os outros helpers precisam de um import em um arquivo <code>.gjs</code> ou <code>.gts</code>.
-  Em um template <code>.hbs</code>, o Ember os encontra pelo nome.
+  Em um template <code>.hbs</code>, o Ember encontra os helpers pelo nome.
+  Dos nomes acima, apenas <code>array</code>, <code>fn</code>, <code>hash</code> e <code>on</code> são nativos ali.
+  Um addon precisa fornecer os demais.
