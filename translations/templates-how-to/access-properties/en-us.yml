@@ -1,3 +1,7 @@
 title: Accessing Properties
 description: >
-  TODO: Write this
+  Use a path with dots to read a property of an argument, of <code>this</code>, or of a block parameter.
+  If a value in the path is missing, the result is <code>undefined</code>, and there is no error.
+
+dynamic: >
+  Use the <code>get</code> helper when the property name is a value, or when it is not a valid identifier.

@@ -1,21 +1,26 @@
-# unconventional js
-/blueprints/*/files/
-/vendor/
+# markdown with templates in it, which prettier does not understand
+/docs/
+
+# translators edit these files in the GitHub web editor
+/translations/
 
 # compiled output
 /dist/
 /tmp/
+/app/templates/docs/
 
 # dependencies
-/bower_components/
 /node_modules/
 
+# lockfiles
+pnpm-lock.yaml
+package-lock.json
+
 # misc
-/coverage/
-!.*
-.eslintcache
+/.env*
+/.vite/
+/.pnp*
+.pnp.*
 
 # ember-try
 /.node_modules.ember-try/
-/bower.json.ember-try
-/package.json.ember-try

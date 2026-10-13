@@ -1,3 +1,10 @@
-title: Do something on render
+title: Hacer algo al renderizar
 description: >
-  TODO: write this
+  Usa un modificador para ejecutar código cuando un elemento entra en el DOM.
+  El modificador recibe el elemento.
+  La función <code>modifier</code> viene del paquete
+  <a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a>.
+
+derive: >
+  Si el código no necesita un elemento, normalmente no hace falta un hook de renderizado.
+  Calcula el valor en un getter, y la plantilla lo lee durante el renderizado.

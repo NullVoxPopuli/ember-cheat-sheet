@@ -1,0 +1,6 @@
+title: Template Tag (Etiqueta template)
+description: >
+  La etiqueta <code>&lt;template&gt;</code> contiene la plantilla de un componente en un archivo <code>.gjs</code> o <code>.gts</code>.
+  La plantilla puede usar cualquier valor de JavaScript que esté en el ámbito, por ejemplo un import o una <code>const</code>.
+  Un archivo que solo tiene un <code>&lt;template&gt;</code> exporta un componente de solo plantilla.
+  Un <code>&lt;template&gt;</code> en el cuerpo de una clase es la plantilla de esa clase.

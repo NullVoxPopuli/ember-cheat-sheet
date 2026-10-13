@@ -1,3 +1,3 @@
 title: yield
 description: >
-  TODO: write this
+  <code>yield</code>は、呼び出し側がコンポーネントに渡したブロックをレンダリングします。<code>yield</code>の後ろに書いた値は、それぞれブロックパラメーターになります。呼び出し側は、<code>as |...|</code>のパイプの間でブロックパラメーターを受け取ります。名前付きブロックをレンダリングするには、<code>to="name"</code>を使います。

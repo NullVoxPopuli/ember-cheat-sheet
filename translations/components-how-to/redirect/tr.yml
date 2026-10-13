@@ -1,3 +1,7 @@
 title: Farklı bir URL'e yönlen
 description: >
-  TODO: write this
+  Router servisini enjekte edin ve <code>transitionTo</code> fonksiyonunu bir rota adı veya URL ile çağırın.
+  <code>replaceWith</code> aynı işi yapar, ancak tarayıcı geçmişindeki mevcut kaydın yerine geçer.
+
+link: >
+  Gezinmeyi kullanıcı başlatıyorsa <code>&lt;LinkTo&gt;</code> ile bir bağlantı render edin.

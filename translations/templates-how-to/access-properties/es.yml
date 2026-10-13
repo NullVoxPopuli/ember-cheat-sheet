@@ -1,3 +1,7 @@
-title: Accessing Properties
+title: Acceder a propiedades
 description: >
-  TODO: Write this
+  Usa una ruta con puntos para leer una propiedad de un argumento, de <code>this</code> o de un parámetro de bloque.
+  Si falta un valor en la ruta, el resultado es <code>undefined</code> y no se produce ningún error.
+
+dynamic: >
+  Usa el helper <code>get</code> cuando el nombre de la propiedad es un valor, o cuando no es un identificador válido.

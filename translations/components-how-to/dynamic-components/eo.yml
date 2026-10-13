@@ -1,0 +1,11 @@
+title: Bildigu komponanton, kiu estas valoro
+description: >
+  Ĉiu valoro, kiu estas komponanto, estas alvokebla per angulaj krampoj,
+  ekzemple <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code>, aŭ blokparametro.
+  Atributoj kaj modifiloj funkcias same kiel ĉe ĉiu alia komponanto:
+  ili iras al la elemento, kiu havas <code>...attributes</code>.
+
+curly: >
+  Alvoko per buklaj krampoj ne povas ricevi atributojn aŭ modifilojn.
+  Uzu la helpanton <code>component</code> kiel valoron por anticipe difini argumentojn,
+  kaj alvoku la rezulton per angulaj krampoj.

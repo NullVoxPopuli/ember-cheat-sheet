@@ -1,3 +1,4 @@
-title: Arguments
+title: Argumentos
 description: >
-  TODO: write this
+  Dados que quem chama passa para um componente, um helper ou um modifier.
+  O nome de um argumento de componente começa com <code>@</code>, tanto para quem chama quanto dentro do componente.

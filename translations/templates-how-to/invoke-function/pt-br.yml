@@ -1,3 +1,10 @@
-title: Invoking Functions
+title: Invocando Funções
 description: >
-  TODO: Write this
+  Para chamar uma função, escreva o nome dela e, em seguida, os argumentos, como você faz com um helper.
+  A função pode ser um import, uma variável local, um argumento ou uma propriedade de <code>this</code>.
+
+no-arguments: >
+  Uma função com argumentos é sempre chamada.
+  Uma função sem argumentos é chamada quando seu resultado vai diretamente para a página.
+  Onde a função é o valor de um argumento, adicione parênteses para chamá-la.
+  Sem os parênteses, o argumento recebe a própria função, e não o resultado dela.

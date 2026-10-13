@@ -1,6 +1,5 @@
 title: this
 description: >
-  C'est une référence à la classe liée à un modèle (<i>template</i>), si cette dernière existe.<br/>
-  Pour les modèles de composants, <code>this</code> est l'instance de ce composant.<br/>
-  Pour les modèles de routes, <code>this</code> est l'instance du contrôleur (<i>controller</i>) associé.<br/>
-  Pour les composants sans instance (<i>template-only components</i>), <code>this</code> sera alors <code>undefined</code>.
+  <code>this</code> est l’instance de la classe qui contient le <code>&lt;template&gt;</code>.<br/>
+  Un composant sans instance (<i>template-only component</i>) n’a pas de classe : <code>this</code> y vaut donc <code>undefined</code>.<br/>
+  Dans un modèle de route écrit dans un fichier <code>.hbs</code>, <code>this</code> est l’instance du contrôleur (<i>controller</i>).

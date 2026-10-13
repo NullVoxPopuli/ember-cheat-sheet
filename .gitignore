@@ -1,26 +1,18 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
 # compiled output
 /dist/
 /tmp/
 
+# pages that Docfy generates from docs/
+/app/templates/docs/
+
 # dependencies
-/bower_components/
 /node_modules/
 
 # misc
-/.env*
-/.pnp*
-/.sass-cache
+/.env*.local
 /.eslintcache
-/connect.lock
-/coverage/
-/libpeerconnection.log
-/npm-debug.log*
+/.vite/
 /testem.log
-/yarn-error.log
 
-# ember-try
-/.node_modules.ember-try/
-/bower.json.ember-try
-/package.json.ember-try
+# written by the Docfy dev server
+/public/docfy-urls.json

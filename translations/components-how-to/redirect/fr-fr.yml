@@ -1,3 +1,7 @@
 title: Rediriger vers une autre URL
 description: >
-  TODO: à traduire
+  Injectez le service de routage (<i>router</i>) et appelez <code>transitionTo</code> avec un nom de route ou une URL.
+  <code>replaceWith</code> fait la même chose, mais remplace l’entrée courante dans l’historique du navigateur.
+
+link: >
+  Quand c’est l’utilisateur qui déclenche la navigation, affichez un lien avec <code>&lt;LinkTo&gt;</code>.

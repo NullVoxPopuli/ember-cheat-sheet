@@ -3,9 +3,10 @@ description: >
   À la différence de JavaScript, les Modèles Ember utilisent la
   <a href="https://fr.wikipedia.org/wiki/Notations_infixée,_préfixée,_polonaise_et_postfixée">notation préfixée ou polonaise</a> 
   qui veut que les opérateurs (ou fonctions) <em>précèdent</em> leurs opérandes (ou arguments).
+
 js-equiv: "Ce qui en JavaScript est équivalent à :"
+
 notes: >
-  Dans les vieilles version d'Ember, vous aurez peut-être besoin d'une extension pour des Aides comme
-  <code>or</code> et <code>not</code>, 
-  <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>
-  par exemple.
+  Dans Ember 7.3, <code>or</code>, <code>not</code> et les autres Aides logiques et de comparaison font partie d’Ember.
+  Dans les versions plus anciennes d’Ember, une extension comme
+  <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> les fournit.

@@ -1,3 +1,7 @@
 title: Named Blocks
 description: >
-  TODO: write this
+  A component with more than one block lets the caller fill more than one place.
+  Render each block with <code>yield</code> and <code>to="name"</code>.
+  Use <code>has-block</code> to find out if the caller passed a block.
+
+usage: The caller fills each block by name.

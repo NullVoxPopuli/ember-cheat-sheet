@@ -1,3 +1,5 @@
-title: Updating args
+title: Atualizando argumentos
 description: >
-  TODO: write this
+  Um componente não pode alterar seus argumentos.
+  Para alterar um valor, o dono dos dados também passa uma função, e o componente chama essa função.
+  Os dados descem, e as ações sobem.

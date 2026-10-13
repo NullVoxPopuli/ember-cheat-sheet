@@ -1,10 +1,23 @@
 # Common translations for linking to
 # things in the docs
-title: References
+title: 参考資料
 
-let: <code>let</code> on the Ember API docs
-array: <code>array</code> on the Ember API docs
+let: Ember APIドキュメントの<code>let</code>
+array: Ember APIドキュメントの<code>array</code>
+router-service: Ember APIドキュメントの<code>RouterService</code>
+helper-module: Ember APIドキュメントの<code>@ember/helper</code>
+
+guides:
+  template-tag: Ember Guidesの「Template Tag Format」
+  arguments: Ember Guidesの「Component Arguments and HTML Attributes」
+  block-content: Ember Guidesの「Block Content」
+  component-state: Ember Guidesの「Component State and Actions」
+  template-lifecycle: Ember Guidesの「Template Lifecycle, DOM, and Modifiers」
+  looping: Ember Guidesの「Looping Through Lists」
+  helper-functions: Ember Guidesの「Helper Functions」
+  conditional-content: Ember Guidesの「Conditional Content」
 
 rfcs:
-  561: "RFC: Adding Numeric Comparison Operators to Templates"
-
+  560: "RFC: テンプレートへの等価演算子の追加"
+  561: "RFC: テンプレートへの数値比較演算子の追加"
+  562: "RFC: テンプレートへの論理演算子の追加"

@@ -1,3 +1,5 @@
-title: Ĝisdatigante Argumentojn
+title: Ĝisdatigo de Argumentoj
 description: >
-  TODO: skribu ĉi tion
+  Komponanto ne povas ŝanĝi siajn argumentojn.
+  Por ŝanĝi valoron, la posedanto de la datumoj transdonas ankaŭ funkcion, kaj la komponanto vokas tiun funkcion.
+  La datumoj iras malsupren, kaj la ago iras supren.

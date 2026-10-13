@@ -1,3 +1,6 @@
 title: yield
 description: >
-  TODO: write this
+  <code>yield</code> renderiza o bloco que quem chamou passou para o componente.
+  Cada valor depois de <code>yield</code> se torna um parâmetro de bloco.
+  Quem chama recebe os parâmetros de bloco entre as barras verticais de <code>as |...|</code>.
+  Use <code>to="name"</code> para renderizar um bloco nomeado.

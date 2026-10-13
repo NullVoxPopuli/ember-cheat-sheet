@@ -1,3 +1,7 @@
 title: Redirect to a different URL
 description: >
-  TODO: write this
+  Inject the router service and call <code>transitionTo</code> with a route name or a URL.
+  <code>replaceWith</code> does the same, but it replaces the current entry in the browser history.
+
+link: >
+  When the user starts the navigation, render a link with <code>&lt;LinkTo&gt;</code>.

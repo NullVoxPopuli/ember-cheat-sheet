@@ -1,3 +1,4 @@
 title: Get a reference to an element
 description: >
-  TODO: write this
+  A modifier receives the element as its first parameter.
+  Store the element if a method needs it later.

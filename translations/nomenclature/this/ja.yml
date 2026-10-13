@@ -1,3 +1,3 @@
 title: this
 description: >
-  TODO: write this
+  <code>this</code>は、<code>&lt;template&gt;</code>を含むクラスのインスタンスです。テンプレートのみのコンポーネントにはクラスがないため、そこでは<code>this</code>は<code>undefined</code>です。<code>.hbs</code>ファイルのルートテンプレートでは、<code>this</code>はコントローラーのインスタンスです。

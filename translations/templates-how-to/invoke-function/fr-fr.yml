@@ -1,3 +1,10 @@
 title: Appeler une Fonction
 description: >
-  TODO: à traduire
+  Pour appeler une fonction, écrivez son nom suivi des arguments, comme pour une aide (<i>helper</i>).
+  La fonction peut être un import, une variable locale, un argument ou une propriété de <code>this</code>.
+
+no-arguments: >
+  Une fonction avec des arguments est toujours appelée.
+  Une fonction sans argument est appelée quand son résultat est inséré directement dans la page.
+  Quand la fonction est la valeur d’un argument, ajoutez des parenthèses pour l’appeler.
+  Sans les parenthèses, l’argument reçoit la fonction elle-même, et non son résultat.

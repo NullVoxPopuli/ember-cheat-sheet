@@ -7,7 +7,7 @@ curly: >
   Bir blok, bloğun başlangıcını belirtmek için <code>#</code> ve bloğun sonunu belirtmek için <code>/</code> ile gösterilen küme parantezleri ile tanımlanır.
 
 component: >
-  Bir blok, tıpkı küme parantezleri ile tanımlama gibi bileşen çağrılarıyla da tanımlanır ve yerel değişkenler boru karakterleri <code>|...|</code> arasında bulunur.
+  Bir blok, tıpkı küme parantezleri ile tanımlama gibi bileşen çağrılarıyla da tanımlanır ve yeni yerel değişkenler <code>as</code> ifadesinden sonraki boru karakterleri <code>|...|</code> arasında tanımlanır.
 
 component-after: >
   Bloğun oluşturulabilmesi için <code>MyComponent</code> içinde bir <code>'{{yield}}'</code> olması gerektiğini unutmayın.

@@ -1,3 +1,4 @@
 title: Créer une référence vers un élément
 description: >
-  TODO: à traduire
+  Un modificateur (<i>modifier</i>) reçoit l’élément comme premier paramètre.
+  Conservez l’élément si une méthode en a besoin plus tard.

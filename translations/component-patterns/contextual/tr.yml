@@ -1,3 +1,7 @@
 title: Bağlamsal Bileşenler
 description: >
-  TODO: write this
+  Bazı argümanları önceden ayarlanmış başka bileşenleri yield eden bir bileşendir.
+  <code>component</code> yardımcı fonksiyonu argümanları ayarlar, <code>hash</code> ise her bileşene bir ad verir.
+  Çağıran, üst bileşenini zaten bilen parçalar alır.
+
+usage: Çağıran yalnızca üst bileşenin ayarlamadığı argümanları geçer.

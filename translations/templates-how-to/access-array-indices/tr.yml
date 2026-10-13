@@ -1,3 +1,4 @@
 title: Dizi İndekslerine Erişme
 description: >
-  TODO: Write this
+  İndeks ile birlikte <code>get</code> yardımcı fonksiyonunu kullanın.
+  İndeks bir sabit (literal) veya bir değer olabilir.

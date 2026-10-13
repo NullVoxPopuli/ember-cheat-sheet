@@ -1,3 +1,4 @@
-title: Accessing Array Indices
+title: Acceder a los índices de un array
 description: >
-  TODO: Write this
+  Usa el helper <code>get</code> con el índice.
+  El índice puede ser un literal o un valor.

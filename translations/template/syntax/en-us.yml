@@ -1,7 +1,6 @@
 title: Syntax
 description: >
-  "Syntax plays an important role in the template, because based on the position of an expression in the template, you'll know <em>exactly</em> what type of thing it is: a modifier, a helper, or plain value"
+  Syntax plays an important role in the template, because based on the position of an expression in the template, you'll know <em>exactly</em> what type of thing it is: a modifier, a helper, or plain value
 
-plain-function: Plain function
 with-this: >
-  It doesn't matter how the reference to modifier or helper are written, it is the <em>syntax</em> which determines what is expected.
+  It doesn't matter how the reference to a modifier or a helper is written, it is the <em>syntax</em> which determines what is expected.

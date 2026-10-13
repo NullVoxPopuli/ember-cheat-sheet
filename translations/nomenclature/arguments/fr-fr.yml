@@ -1,3 +1,4 @@
 title: Les Arguments
 description: >
-  Ce sont les données passées à un composant, une aide (<i>helper</i> en anglais) ou à un modificateur (<i>modifier</i> en anglais) lors de son appel.
+  Ce sont les données que l’appelant passe à un composant, à une aide (<i>helper</i> en anglais) ou à un modificateur (<i>modifier</i> en anglais).
+  Le nom d’un argument de composant commence par <code>@</code>, aussi bien chez l’appelant qu’à l’intérieur du composant.

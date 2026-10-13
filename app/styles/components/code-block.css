@@ -1,0 +1,27 @@
+.docfy-code-block {
+  margin: 0.75rem 0 1rem;
+}
+
+.docfy-code-block pre {
+  border: 1px solid var(--ember-faint-gray);
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  padding: 0.75rem 1rem;
+}
+
+.docfy-code-block__copy {
+  background: var(--ember-white);
+  border: 1px solid var(--ember-gray);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+  opacity: 0;
+  padding: 0.125rem 0.5rem;
+}
+
+.docfy-code-block:hover .docfy-code-block__copy,
+.docfy-code-block__copy:focus-visible {
+  opacity: 1;
+}

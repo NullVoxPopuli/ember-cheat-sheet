@@ -1,0 +1,11 @@
+title: Değer olan bir bileşeni render et
+description: >
+  Bileşen olan her değer köşeli parantezlerle çağrılabilir;
+  örneğin <code>&lt;this.Kind /&gt;</code>, <code>&lt;@Kind /&gt;</code> ya da bir blok parametresi.
+  Öznitelikler ve değiştirici fonksiyonlar diğer tüm bileşenlerde olduğu gibi çalışır:
+  <code>...attributes</code> bulunan öğeye giderler.
+
+curly: >
+  Küme parantezleriyle yapılan bir çağrı, öznitelik veya değiştirici fonksiyon alamaz.
+  Argümanları önceden ayarlamak için <code>component</code> yardımcı fonksiyonunu bir değer olarak kullanın
+  ve sonucu köşeli parantezlerle çağırın.

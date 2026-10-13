@@ -1,6 +1,6 @@
-title: Syntax
+title: Sintaxis
 description: >
-  Syntax plays an important role in the template, because based on the position of an expression in the template, you'll know <em>exactly</em> what type of thing it is':' a modifier, a helper, or plain value
+  La sintaxis juega un papel importante en la plantilla, porque según la posición de una expresión en la plantilla sabrás <em>exactamente</em> qué tipo de cosa es: un modificador, un helper o un valor simple
 
 with-this: >
-  It doesn't matter how the reference to modifier or helper are written, it is the <em>syntax</em> which determines what is expected.
+  No importa cómo esté escrita la referencia al modificador o al helper; es la <em>sintaxis</em> la que determina qué se espera.

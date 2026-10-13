@@ -1,3 +1,9 @@
 title: Bir özellik değiştiğinde bir şey yap
 description: >
-  TODO: write this
+  Değişikliği izlemeyin. Değeri türetin.
+  Tracked durumu veya argümanları okuyan bir getter, bunlardan biri değiştikten sonra yeni bir sonuç verir.
+  Hesaplama pahalıysa <code>@cached</code> ekleyin; böylece getter her değişiklik için bir kez çalışır.
+
+dom: >
+  Bir değer değiştiğinde DOM'u güncellemek için değeri bir değiştirici fonksiyona (modifier) geçin.
+  Değiştirici fonksiyon, argümanlarından biri değiştiğinde yeniden çalışır.

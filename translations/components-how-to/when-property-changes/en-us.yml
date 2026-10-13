@@ -1,3 +1,9 @@
 title: Do something when a property changes
 description: >
-  TODO: write this
+  Do not watch for the change. Derive the value.
+  A getter that reads tracked state or arguments gives a new result after one of them changes.
+  Add <code>@cached</code> when the computation is expensive, so that the getter runs one time for each change.
+
+dom: >
+  To update the DOM when a value changes, pass the value to a modifier.
+  The modifier runs again when one of its arguments changes.

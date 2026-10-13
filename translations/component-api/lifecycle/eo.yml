@@ -1,3 +1,10 @@
 title: Vivciklo
 description: >
-  TODO: skribu ĉi tion
+  Glimmer-komponanto havas du vivciklajn hokojn.
+  La <code>constructor</code> ruliĝas unu fojon, kiam Ember kreas la komponanton.
+  <code>willDestroy</code> ruliĝas unu fojon, kiam Ember forigas la komponanton.
+
+no-render-hooks: >
+  Ne ekzistas hokoj por bildigo aŭ ĝisdatigo.
+  Por kalkuli valoron el aliaj valoroj, uzu getter-metodon.
+  Por labori kun DOM-elemento, uzu modifilon.

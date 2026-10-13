@@ -9,6 +9,6 @@ description: >
 js-equiv: kiu estas la ekvivalento de ĉi tio, en Javaskripto
 
 notes: >
-  En pli malnovaj versioj de Ember, vi eble bezonos aldonaĵon por helpantoj
-  kiel <code>or</code> kaj <code>not</code>
-  kiel: <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>
+  En Ember 7.3, <code>or</code>, <code>not</code>, kaj la aliaj logikaj kaj komparaj helpantoj estas parto de Ember.
+  En pli malnovaj versioj de Ember, aldonaĵo kiel
+  <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a> provizas ilin.

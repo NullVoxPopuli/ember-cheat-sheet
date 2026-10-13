@@ -1,0 +1,6 @@
+title: Template Etiketi
+description: >
+  <code>&lt;template&gt;</code> etiketi, bir <code>.gjs</code> veya <code>.gts</code> dosyasında bileşenin şablonunu barındırır.
+  Şablon, kapsamdaki her JavaScript değerini kullanabilir; örneğin bir import veya bir <code>const</code>.
+  Yalnızca bir <code>&lt;template&gt;</code> içeren dosya, sadece şablon olan bir bileşeni dışa aktarır.
+  Bir sınıf gövdesindeki <code>&lt;template&gt;</code>, o sınıfın şablonudur.

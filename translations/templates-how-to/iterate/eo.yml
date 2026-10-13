@@ -1,3 +1,13 @@
 title: Iteracio
 description: >
-  TODO: skribu ĉi tion
+  <code>each</code> bildigas sian blokon unu fojon por ĉiu ero de tabelo aŭ de alia iterebla objekto.
+  La dua blokparametro estas la indekso.
+  La bloko <code>else</code> bildiĝas, kiam la listo estas malplena.
+
+key: >
+  Defaŭlte, Ember identigas ĉiun eron per ĝia objekta identeco.
+  Kiam la listo ricevas novajn objektojn por la samaj eroj, donu al <code>key</code> la nomon de propraĵo, kiu havas unikan valoron.
+  Ember tiam konservas la DOM de ĉiu ero.
+
+each-in: >
+  <code>each-in</code> bildigas sian blokon unu fojon por ĉiu ŝlosilo de objekto.

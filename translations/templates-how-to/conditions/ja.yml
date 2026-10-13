@@ -1,3 +1,9 @@
-title: Conditions
+title: 条件分岐
 description: >
-  TODO: Write this
+  <code>if</code>は、値がtruthyのときにブロックをレンダリングします。テンプレートでは空の配列はfalsyで、この点はJavaScriptと異なります。<code>unless</code>は<code>if</code>の逆です。
+
+inline: >
+  インラインの<code>if</code>は、条件がtruthyのときは2番目の引数を返します。そうでなければ3番目の引数を返します。
+
+operators: >
+  比較ヘルパーと論理ヘルパーで条件を組み合わせます。これらはEmber 7.3の一部で、インポートは不要です。

@@ -1,3 +1,6 @@
-title: Named Block
+title: Bloco Nomeado
 description: >
-  TODO: write this
+  Um bloco com um nome.
+  Quem chama escreve um bloco nomeado como <code>&lt;:name&gt;...&lt;/:name&gt;</code> dentro da invocação do componente.
+  Um componente pode receber vários blocos nomeados, e é ele que decide onde cada bloco é renderizado.
+  Um bloco sem nome é o bloco de nome <code>default</code>.

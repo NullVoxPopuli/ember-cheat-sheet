@@ -1,3 +1,10 @@
 title: Yok edilme anında bir şey yap
 description: >
-  TODO: write this
+  Değiştirici fonksiyon (modifier) bir fonksiyon döndürebilir.
+  Bu fonksiyon, öğe DOM'dan ayrılmadan önce ve değiştirici fonksiyon yeniden çalışmadan önce çalışır.
+  Değiştirici fonksiyonun yaptığını geri almak için onu kullanın.
+
+destructor: >
+  Bir öğeye ait olmayan işler için <code>registerDestructor</code> kullanın.
+  Destructor, Ember bileşeni yok ettiğinde çalışır ve temizlik kodunu kurulum kodunun yanında tutar.
+  <code>willDestroy</code> hook'u da aynı işi görür.

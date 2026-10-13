@@ -4,7 +4,20 @@ title: Referencoj
 
 let: <code>let</code> en la dokumentoj de Ember API
 array: <code>array</code> en la dokumentoj de Ember API
+router-service: <code>RouterService</code> en la dokumentoj de Ember API
+helper-module: <code>@ember/helper</code> en la dokumentoj de Ember API
+
+guides:
+  template-tag: Formato de la ŝablona etikedo en la Ember-gvidiloj
+  arguments: Komponantaj argumentoj kaj HTML-atributoj en la Ember-gvidiloj
+  block-content: Bloka enhavo en la Ember-gvidiloj
+  component-state: Komponanta stato kaj agoj en la Ember-gvidiloj
+  template-lifecycle: Ŝablona vivciklo, DOM kaj modifiloj en la Ember-gvidiloj
+  looping: Iterado tra listoj en la Ember-gvidiloj
+  helper-functions: Helpantaj funkcioj en la Ember-gvidiloj
+  conditional-content: Kondiĉa enhavo en la Ember-gvidiloj
 
 rfcs:
-  561: "RFC: Adding Numeric Comparison Operators to Templates"
-
+  560: "RFC: Aldono de egalecaj operatoroj al ŝablonoj"
+  561: "RFC: Aldono de nombraj komparaj operatoroj al ŝablonoj"
+  562: "RFC: Aldono de logikaj operatoroj al ŝablonoj"

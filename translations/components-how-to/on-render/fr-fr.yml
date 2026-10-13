@@ -1,3 +1,10 @@
 title: Faire une Action Lors du Rendu
 description: >
-  TODO: à traduire
+  Utilisez un modificateur (<i>modifier</i>) pour exécuter du code quand un élément entre dans le DOM.
+  Le modificateur reçoit l’élément.
+  La fonction <code>modifier</code> vient du paquet
+  <a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a>.
+
+derive: >
+  Si le code n’a pas besoin d’un élément, un hook de rendu est rarement nécessaire.
+  Calculez la valeur dans un getter : le modèle la lit pendant le rendu.

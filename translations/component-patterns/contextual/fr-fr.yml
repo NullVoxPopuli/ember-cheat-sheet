@@ -1,3 +1,7 @@
 title: Les Composants Contextuels
 description: >
-  TODO: à traduire
+  C’est un composant qui transmet à son bloc d’autres composants dont certains arguments sont déjà définis.
+  L’aide <code>component</code> définit les arguments, et <code>hash</code> donne un nom à chaque composant.
+  L’appelant reçoit des éléments qui connaissent déjà leur parent.
+
+usage: L’appelant passe uniquement les arguments que le parent n’a pas définis.

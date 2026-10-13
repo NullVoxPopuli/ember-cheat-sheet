@@ -1,3 +1,10 @@
-title: Faru ion sur render
+title: Faru ion ĉe bildigo
 description: >
-  TODO: skribu ĉi tion
+  Uzu modifilon por ruli kodon, kiam elemento eniras la DOM.
+  La modifilo ricevas la elementon.
+  La funkcio <code>modifier</code> venas el la pakaĵo
+  <a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a>.
+
+derive: >
+  Se la kodo ne bezonas elementon, bildiga hoko kutime ne estas necesa.
+  Kalkulu la valoron en getter-metodo, kaj la ŝablono legas ĝin dum la bildigo.

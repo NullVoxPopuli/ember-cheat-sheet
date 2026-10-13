@@ -1,3 +1,7 @@
-title: Contextual Components
+title: Componentes Contextuais
 description: >
-  TODO: write this
+  Um componente que expõe, via yield, outros componentes com alguns argumentos já definidos.
+  O helper <code>component</code> define os argumentos, e o <code>hash</code> dá um nome a cada componente.
+  Quem chama recebe partes que já conhecem o componente pai.
+
+usage: Quem chama passa apenas os argumentos que o componente pai não definiu.

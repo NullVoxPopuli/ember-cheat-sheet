@@ -1,3 +1,6 @@
-title: Accessing Properties
+title: プロパティにアクセスする
 description: >
-  TODO: Write this
+  引数、<code>this</code>、ブロックパラメーターのプロパティを読み取るには、ドットで区切ったパスを使います。パスの途中の値が存在しない場合、結果は<code>undefined</code>になり、エラーは発生しません。
+
+dynamic: >
+  プロパティ名が値である場合や、有効な識別子でない場合は、<code>get</code>ヘルパーを使います。

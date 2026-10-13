@@ -1,5 +1,9 @@
 title: İç İçe Bileşenler
 description: >
-  Başka bir bileşenin klasöründe tanımlanan bir bileşendir.
-  Örneğin, <code>app/components/nested/some-component</code> içerisindeki bir bileşen
-  <code>&lt;Nested::SomeComponent /&gt;</code> şeklinde çağrılabilir.
+  Bileşenler klasörünün bir alt klasöründe bulunan bir bileşendir.
+  Bir <code>.gjs</code> veya <code>.gts</code> dosyasında bileşeni yolundan import edin ve ona istediğiniz adı verin.
+
+loose-mode: >
+  Bir <code>.hbs</code> şablonunda Ember bileşenleri adlarıyla bulur.
+  Orada, <code>app/components/nested/some-component</code> içindeki bir bileşen
+  klasör adları arasına <code>::</code> konularak çağrılır.

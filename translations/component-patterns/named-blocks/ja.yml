@@ -1,3 +1,5 @@
-title: Named Blocks
+title: 名前付きブロック
 description: >
-  TODO: write this
+  複数のブロックを持つコンポーネントでは、呼び出し側が複数の場所に内容を入れられます。それぞれのブロックは<code>yield</code>と<code>to="name"</code>でレンダリングします。呼び出し側がブロックを渡したかどうかを調べるには、<code>has-block</code>を使います。
+
+usage: 呼び出し側は、名前を指定してそれぞれのブロックに内容を入れます。

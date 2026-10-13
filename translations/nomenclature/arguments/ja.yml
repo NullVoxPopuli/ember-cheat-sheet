@@ -1,3 +1,3 @@
-title: Arguments
+title: 引数
 description: >
-  TODO: write this
+  呼び出し側がコンポーネント、ヘルパー、モディファイアに渡すデータです。コンポーネントの引数の名前は、呼び出し側でもコンポーネントの内側でも<code>@</code>で始まります。

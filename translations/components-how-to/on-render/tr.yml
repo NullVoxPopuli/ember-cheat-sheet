@@ -1,3 +1,10 @@
 title: Oluşturulma anında bir şey yap
 description: >
-  TODO: write this
+  Bir öğe DOM'a girdiğinde kod çalıştırmak için değiştirici fonksiyon (modifier) kullanın.
+  Değiştirici fonksiyon öğeyi alır.
+  <code>modifier</code> fonksiyonu
+  <a href="https://github.com/ember-modifier/ember-modifier">ember-modifier</a> paketinden gelir.
+
+derive: >
+  Kodun bir öğeye ihtiyacı yoksa genellikle bir render hook'una gerek yoktur.
+  Değeri bir getter içinde hesaplayın; şablon onu render sırasında okur.

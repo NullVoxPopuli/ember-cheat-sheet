@@ -1,3 +1,10 @@
-title: Attributes
+title: Attributes (Atributos)
 description: >
-  TODO: write this
+  Cualquier atributo HTML disponible en la <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">lista de atributos HTML de MDN</a>
+
+splattributes: >
+  También existen los atributos "splat" o "splattributes", que reenvían todos los atributos pasados desde el contexto de invocación
+  al elemento que tiene <code>...attributes</code>. Ten en cuenta que los <em>argumentos</em> no se incluyen en <code>...attributes</code>.
+
+  En el ejemplo de abajo, si este div fuera la plantilla del <code>SomeComponent</code> de arriba, los atributos <code>class</code>,
+  <code>data-test</code> y <code>style</code> se aplicarían al div.

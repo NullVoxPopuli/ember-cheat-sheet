@@ -1,3 +1,5 @@
 title: Handling Events
 description: >
-  TODO: write this
+  The <code>on</code> modifier adds an event listener to an element, and the handler receives the event.
+  Use <code>fn</code> to pass arguments before the event.
+  Define the handler as an arrow function in a class field, so that <code>this</code> is always the component.

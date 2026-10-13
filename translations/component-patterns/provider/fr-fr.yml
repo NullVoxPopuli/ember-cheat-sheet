@@ -1,3 +1,6 @@
 title: Les Composants Fournisseurs - Provider Components
 description: >
-  TODO: à traduire
+  Un composant fournisseur détient un état et un comportement, et ne produit aucun balisage qui lui soit propre.
+  Il transmet l’état et les fonctions à son bloc, et l’appelant décide de ce qui est affiché.
+
+usage: L’appelant reçoit les valeurs transmises sous forme de paramètres de bloc.

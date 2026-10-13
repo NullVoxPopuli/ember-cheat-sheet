@@ -1,3 +1,5 @@
 title: this
 description: >
-  TODO: write this
+  <code>this</code> es la instancia de la clase que contiene el <code>&lt;template&gt;</code>.
+  Un componente de solo plantilla no tiene clase, así que ahí <code>this</code> es <code>undefined</code>.
+  En la plantilla de una ruta en un archivo <code>.hbs</code>, <code>this</code> es la instancia del controlador.

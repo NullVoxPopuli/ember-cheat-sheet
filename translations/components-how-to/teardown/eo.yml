@@ -1,3 +1,10 @@
-title: Faru ion kiam dum detruo
+title: Faru ion dum detruo
 description: >
-  TODO: skribu ĉi tion
+  Modifilo povas redoni funkcion.
+  Tiu funkcio ruliĝas antaŭ ol la elemento forlasas la DOM, kaj antaŭ ol la modifilo ruliĝas denove.
+  Uzu ĝin por malfari tion, kion la modifilo faris.
+
+destructor: >
+  Por laboro, kiu ne apartenas al elemento, uzu <code>registerDestructor</code>.
+  La detruilo ruliĝas, kiam Ember detruas la komponanton, kaj ĝi tenas la purigon apud la preparo.
+  La hoko <code>willDestroy</code> faras la saman laboron.

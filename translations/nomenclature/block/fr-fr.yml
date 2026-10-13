@@ -10,7 +10,7 @@ curly: >
 
 component: >
   Un bloc peut être créé à l'invocation d'un composant.
-  De la même manière que pour un bloc simple, les variables locales seront définies entre les barres verticales : <code>as |...|</code>.
+  De la même manière que pour un bloc simple, les variables locales seront définies après <code>as</code>, entre les barres verticales : <code>|...|</code>.
 
 component-after: >
   <b>Notez qu'il doit y avoir un </b><code>'{{yield}}'</code><b> à l'intérieur de </b><code>MyComponent</code><b> pour que le bloc soit correctement rendu.</b>

@@ -1,5 +1,9 @@
 title: Nested Components
 description: >
-  A component defined in the folder of another component.
-  For example, a component in <code>app/components/nested/some-component</code>
-  would be invoked as <code>&lt;Nested::SomeComponent /&gt;</code>
+  A component in a subfolder of the components folder.
+  In a <code>.gjs</code> or <code>.gts</code> file, import the component from its path and give it any name.
+
+loose-mode: >
+  In a <code>.hbs</code> template, Ember finds components by name.
+  There, a component in <code>app/components/nested/some-component</code>
+  is invoked with <code>::</code> between the folder names.

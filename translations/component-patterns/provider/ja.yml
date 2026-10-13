@@ -1,3 +1,5 @@
-title: Provider Components
+title: プロバイダーコンポーネント
 description: >
-  TODO: write this
+  プロバイダーコンポーネントは状態と振る舞いを持ち、自身のマークアップはレンダリングしません。状態と関数をyieldし、何をレンダリングするかは呼び出し側が決めます。
+
+usage: 呼び出し側は、yieldされた値をブロックパラメーターとして受け取ります。

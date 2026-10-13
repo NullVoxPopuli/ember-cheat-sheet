@@ -1,3 +1,5 @@
 title: Aliro al Argumentoj
 description: >
-  TODO: skribu ĉi tion
+  Uzu <code>@name</code> en la ŝablono.
+  Uzu <code>this.args.name</code> en la klaso.
+  Getter-metodo, kiu legas argumenton, rekalkuliĝas, kiam la argumento ŝanĝiĝas.

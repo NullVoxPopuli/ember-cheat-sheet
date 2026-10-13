@@ -1,3 +1,13 @@
-title: Conditions
+title: Condições
 description: >
-  TODO: Write this
+  <code>if</code> renderiza seu bloco quando o valor é truthy.
+  Nos templates, um array vazio é falsy, o que é diferente do JavaScript.
+  <code>unless</code> é o oposto de <code>if</code>.
+
+inline: >
+  Na forma inline, <code>if</code> retorna seu segundo argumento quando a condição é truthy.
+  Caso contrário, retorna seu terceiro argumento.
+
+operators: >
+  Combine condições com os helpers de comparação e os helpers lógicos.
+  Eles fazem parte do Ember 7.3 e não precisam de import.

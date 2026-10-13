@@ -1,3 +1,8 @@
-title: Attributes
+title: 属性
 description: >
-  TODO: write this
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">MDNのHTML属性一覧</a>に載っている、任意のHTML属性です。
+
+splattributes: >
+  ほかに、スプラット属性（「splattributes」）もあります。これは、呼び出し元のコンテキストから渡されたすべての属性を、<code>...attributes</code>が付いた要素へ転送することを表します。なお、<em>引数</em>は<code>...attributes</code>に含まれません。
+
+  下の例で、このdivが上の<code>SomeComponent</code>のテンプレートだとすると、<code>class</code>、<code>data-test</code>、<code>style</code>の各属性がdivに適用されます。

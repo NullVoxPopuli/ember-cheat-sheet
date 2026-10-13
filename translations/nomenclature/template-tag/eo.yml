@@ -1,0 +1,6 @@
+title: Ŝablona Etikedo
+description: >
+  La etikedo <code>&lt;template&gt;</code> enhavas la ŝablonon de komponanto en dosiero <code>.gjs</code> aŭ <code>.gts</code>.
+  La ŝablono povas uzi ĉiun Javaskriptan valoron, kiu estas en la amplekso, ekzemple importon aŭ <code>const</code>.
+  Dosiero kun nur <code>&lt;template&gt;</code> eksportas nurŝablonan komponanton.
+  <code>&lt;template&gt;</code> en klaskorpo estas la ŝablono de tiu klaso.

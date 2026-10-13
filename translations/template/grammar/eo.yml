@@ -6,14 +6,12 @@ description: >
   kiu estas arb-bazita strukturo por helpi simpligi sintakson, konstrui kaj analizi ŝablonojn.
   <br>
   Se vi konas TypeScript, vi povus difini la ŝablonan gramatikon uzante ĉi tiun pseŭdokodon ĉi tie, tiel,
+
 plain-function: >
-  Notu ke simplaj funkciaj helpantoj ankoraŭ ne estas subtenataj sen la helpo de
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">Helper Manager</a>
-  kiel tio, kio estas provizita de
-  <a href="https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill">ember-functions-as-helper-polyfill</a>.
-  La RFC kiu proponas fari ĉi tion defaŭlta konduto,
-  <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>,
-  estas en progreso.
+  Simpla funkcio funkcias kiel helpanto.
+  Nek aldonaĵo nek envolvaĵo estas necesa, ĉar Ember vokas la funkcion kun la poziciaj argumentoj.
+  Se estas nomitaj argumentoj, la funkcio ricevas ilin en unu objekto kiel sian lastan parametron.
+
 expression-breakdown: >
   En ĉi tiu ekzemplo, <code>a</code> povas <em>nur</em> esti helpanto. Ĉiu el
   <code>b</code>, <code>c</code> kaj <code>e</code> ne povas esti io alia ol

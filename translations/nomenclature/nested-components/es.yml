@@ -1,3 +1,9 @@
-title: Nested Components
+title: Nested Components (Componentes anidados)
 description: >
-  TODO: write this
+  Un componente que está en una subcarpeta de la carpeta de componentes.
+  En un archivo <code>.gjs</code> o <code>.gts</code>, importa el componente desde su ruta y dale el nombre que quieras.
+
+loose-mode: >
+  En una plantilla <code>.hbs</code>, Ember encuentra los componentes por su nombre.
+  Ahí, un componente en <code>app/components/nested/some-component</code>
+  se invoca con <code>::</code> entre los nombres de las carpetas.

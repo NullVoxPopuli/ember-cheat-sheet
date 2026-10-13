@@ -1,0 +1,6 @@
+title: 組み込みのヘルパーとモディファイア
+description: >
+  Ember 7.3では、次の名前をインポートなしですべてのテンプレートで使えます。<code>and</code>、<code>array</code>、<code>element</code>、<code>eq</code>、<code>fn</code>、<code>gt</code>、<code>gte</code>、<code>hash</code>、<code>lt</code>、<code>lte</code>、<code>neq</code>、<code>not</code>、<code>on</code>、<code>or</code>です。テンプレート言語のキーワードも同様で、たとえば<code>if</code>、<code>each</code>、<code>let</code>、<code>yield</code>、<code>component</code>などがあります。
+
+imports: >
+  そのほかのヘルパーは、<code>.gjs</code>や<code>.gts</code>ファイルではインポートが必要です。<code>.hbs</code>テンプレートでは、Emberが名前で探します。

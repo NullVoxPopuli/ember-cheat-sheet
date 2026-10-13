@@ -1,40 +1,20 @@
 {
+  "extends": "@ember/app-tsconfig",
   "compilerOptions": {
-    "target": "es2020",
     "allowJs": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noEmitOnError": false,
-    "noEmit": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "baseUrl": ".",
-    "module": "es6",
-    "experimentalDecorators": true,
-    "paths": {
-      "ember-cheat-sheet/tests/*": [
-        "tests/*"
-      ],
-      "ember-cheat-sheet/*": [
-        "app/*"
-      ],
-      "*": [
-        "types/*"
-      ]
-    }
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": [
+      "ember-source/types",
+      "@embroider/core/virtual",
+      "vite/client",
+      "@ember-intl/vite/virtual",
+      "@glint/ember-tsc/types"
+    ]
   },
-  "include": [
-    "app/**/*",
-    "tests/**/*",
-    "types/**/*"
+  "contentMappers": [
+    {
+      "package": "ember-content-mapper",
+      "extensions": [".gts", ".gjs"]
+    }
   ]
 }

@@ -1,3 +1,5 @@
-title: Math
+title: Matemáticas
 description: >
-  TODO: Write this
+  Los helpers de comparación <code>gt</code>, <code>gte</code>, <code>lt</code> y <code>lte</code> forman parte de Ember 7.3.
+  Ember no tiene helpers para aritmética.
+  Escribe una función y llámala en la plantilla.

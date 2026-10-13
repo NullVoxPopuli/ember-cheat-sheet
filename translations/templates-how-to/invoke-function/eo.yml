@@ -1,3 +1,10 @@
 title: Alvokado de Funkcioj
 description: >
-  TODO: skribu ĉi tion
+  Por voki funkcion, skribu ĝian nomon kaj poste la argumentojn, same kiel por helpanto.
+  La funkcio povas esti importo, loka variablo, argumento, aŭ propraĵo de <code>this</code>.
+
+no-arguments: >
+  Funkcio kun argumentoj ĉiam estas vokata.
+  Funkcio sen argumentoj estas vokata, kiam ĝia rezulto iras rekte en la paĝon.
+  Kie la funkcio estas la valoro de argumento, aldonu rondajn krampojn por voki ĝin.
+  Sen la krampoj, la argumento ricevas la funkcion mem, ne ĝian rezulton.

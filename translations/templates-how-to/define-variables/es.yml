@@ -1,6 +1,9 @@
-title: Defining Variables
+title: Definir variables
 description: >
-  Using <code>let</code> is the only way to define variables inline in templates. Because <code>let</code> is a block-helper, it means that scope is consistent with other blocks in templates as well. This is different from languages like JavaScript, where defining a variable is accessible to the "current scope" -- with <code>let</code>, you create a new scope.
+  Usar <code>let</code> es la única forma de definir variables en línea en las plantillas. Como <code>let</code> es un helper de bloque, su ámbito es coherente con el de los demás bloques de las plantillas. Esto es distinto de lenguajes como JavaScript, donde una variable definida queda accesible en el "ámbito actual" -- con <code>let</code>, creas un ámbito nuevo.
 
 example: >
-  In this example, an array is created and then available within the <code>let</code> block as <code>list</code>. It can be iterated over just as any array defined in JavaScript would be.
+  En este ejemplo, se crea un array que luego está disponible dentro del bloque <code>let</code> como <code>list</code>. Se puede iterar sobre él igual que sobre cualquier array definido en JavaScript.
+
+javascript: >
+  En un archivo <code>.gjs</code> o <code>.gts</code>, una variable de JavaScript fuera del <code>&lt;template&gt;</code> suele ser más simple.

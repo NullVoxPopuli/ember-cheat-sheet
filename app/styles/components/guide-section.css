@@ -1,10 +1,9 @@
 .guide-section > .title-container {
   align-items: center;
-  background-color: #1C304A;
+  background-color: #1c304a;
   display: grid;
   grid-gap: 0 1rem;
-  grid-template-areas:
-    "permalink title";
+  grid-template-areas: "permalink title";
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
   margin-left: -2rem;
@@ -14,13 +13,13 @@
 }
 
 .guide-section > .title-container .title {
-  color: #F1F1F1;
+  color: #f1f1f1;
   grid-area: title;
   word-break: break-word;
 }
 
 .guide-section > .title-container .permalink {
-  color: #C1C1C1;
+  color: #c1c1c1;
   grid-area: permalink;
   text-decoration: none;
 }

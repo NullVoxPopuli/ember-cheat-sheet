@@ -1,5 +1,9 @@
 title: Nestitaj komponantoj
 description: >
-  Komponanto difinita en la dosierujo de alia komponanto. Ekzemple, komponanto
-  en <code>app/components/nested/some-component</code> estus alvokita kiel
-  <code>&lt;Nested::SomeComponent /&gt;</code>
+  Komponanto en subdosierujo de la dosierujo de komponantoj.
+  En dosiero <code>.gjs</code> aŭ <code>.gts</code>, importu la komponanton el ĝia vojo kaj donu al ĝi ajnan nomon.
+
+loose-mode: >
+  En ŝablono <code>.hbs</code>, Ember trovas komponantojn laŭ nomo.
+  Tie, komponanto en <code>app/components/nested/some-component</code>
+  estas alvokata per <code>::</code> inter la nomoj de la dosierujoj.

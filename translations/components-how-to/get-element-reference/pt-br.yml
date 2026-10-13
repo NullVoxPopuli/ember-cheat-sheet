@@ -1,3 +1,4 @@
-title: Get a reference to an element
+title: Obter uma referência a um elemento
 description: >
-  TODO: write this
+  Um modifier recebe o elemento como seu primeiro parâmetro.
+  Guarde o elemento se algum método precisar dele mais tarde.

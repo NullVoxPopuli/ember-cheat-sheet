@@ -1,3 +1,5 @@
 title: Updating args
 description: >
-  TODO: write this
+  A component cannot change its arguments.
+  To change a value, the owner of the data also passes a function, and the component calls that function.
+  The data goes down, and the action goes up.

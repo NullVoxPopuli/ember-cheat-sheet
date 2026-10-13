@@ -1,3 +1,5 @@
-title: Accessing Arguments
+title: Acessando Argumentos
 description: >
-  TODO: write this
+  Use <code>@name</code> no template.
+  Use <code>this.args.name</code> na classe.
+  Um getter que lê um argumento é recalculado quando o argumento muda.

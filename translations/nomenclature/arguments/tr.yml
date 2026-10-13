@@ -1,3 +1,4 @@
 title: Argümanlar
 description: >
-  Bir bileşene, yardımcı fonksiyona ya da değiştirici fonksiyona gönderilen bilgidir.
+  Çağıranın bir bileşene, yardımcı fonksiyona ya da değiştirici fonksiyona geçtiği veridir.
+  Bir bileşen argümanının adı, hem çağıran tarafta hem de bileşenin içinde <code>@</code> ile başlar.

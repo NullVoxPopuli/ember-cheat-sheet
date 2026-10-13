@@ -7,13 +7,11 @@ description: >
   une structure en arbre permettant de simplifier la syntaxe, la construction et la décomposition des Modèles.
   <br>
   Si vous êtes familier avec TypeScript, vous pouvez définir un Modèle suivant le pseudo-code ci-dessous :
+
 plain-function: >
-  Notez que les Aides purement fonctionnelles (<i>plain function Helpers</i>) ne sont pas supportées sans un
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">gestionnaire d'Aides</a> 
-  dédié comme celui fourni avec l'extension
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">ember-could-get-used-to-this</a>. 
-  Cependant, il y a une demande d'évolution qui propose d'en faire le comportement par défaut,
-  <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>.
+  Une simple fonction peut servir d’Aide (<i>Helper</i>).
+  Aucune extension ni aucun enrobage ne sont nécessaires, car Ember appelle la fonction avec les arguments positionnels.
+  S’il y a des arguments nommés, la fonction les reçoit dans un seul objet, en dernier paramètre.
 
 expression-breakdown: >
   Dans cet exemple, <code>a</code> peut être <em>uniquement</em> une Aide.

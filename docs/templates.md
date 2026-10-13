@@ -1,3 +1,10 @@
+---
+imports:
+  - import { t } from 'ember-intl';
+  - import GuideSection from '#components/guide-section.gts';
+  - import RefList from '#components/ref/list.gts';
+---
+
 <GuideSection @id='template' as |Section|>
   <Section @id='grammar'>
 
@@ -88,42 +95,108 @@ functionA(argA, argB, { argC: functionB(argD) });
 ```
 
   </Section>
+
+  <Section @id='built-ins'>
+
+```gjs
+<template>
+  {{#if (and @isAdmin (not @isLocked))}}
+    <button type="button" {{on "click" (fn @onDelete @user)}}>
+      Delete
+    </button>
+  {{/if}}
+</template>
+```
+
+  <p>{{t 'template.built-ins.imports' htmlSafe=true}}</p>
+
+```gjs
+import { concat, get, uniqueId } from '@ember/helper';
+
+<template>
+  {{#let (uniqueId) as |id|}}
+    <label for={{id}}>{{get @labels @field}}</label>
+    <input id={{id}} class={{concat "field-" @field}} />
+  {{/let}}
+</template>
+```
+
+<RefList as |x|>
+  <x.api @to="modules/@ember%2Fhelper">
+    {{t 'refs.helper-module' htmlSafe=true}}
+  </x.api>
+</RefList>
+
+  </Section>
 </GuideSection>
 
 <GuideSection @id="templates-how-to" as |Section|>
   <Section @id="iterate">
 
 ```hbs
-{{#each this.anIterable as |item|}}
-  {{log item}}
+{{#each this.anIterable as |item index|}}
+  {{index}}: {{item}}
+{{else}}
+  The list is empty.
 {{/each}}
 ```
 
-```hbs
-{{#each-in this.anObject as |key value|}}
-  {{log key value}}
-{{/each}}
-```
+  <p>{{t 'templates-how-to.iterate.key' htmlSafe=true}}</p>
 
 ```hbs
 {{#each this.anIterable key='uuid' as |item|}}
-  {{log item}}
+  {{item.name}}
 {{/each}}
 ```
 
+  <p>{{t 'templates-how-to.iterate.each-in' htmlSafe=true}}</p>
+
+```hbs
+{{#each-in this.anObject as |key value|}}
+  {{key}}: {{value}}
+{{/each-in}}
+```
+
+<RefList as |x|>
+  <x.guide @to="components/looping-through-lists/">
+    {{t 'refs.guides.looping' htmlSafe=true}}
+  </x.guide>
+</RefList>
 
   </Section>
 
   <Section @id="invoke-function">
 
-```hbs
-{{(this.myFunction)}}
-{{(this.myFunction a b)}}
+```gjs
+import Price from './price';
+
+const formatPrice = (cents, currency = 'USD') => {
+  const format = new Intl.NumberFormat('en-US', { style: 'currency', currency });
+
+  return format.format(cents / 100);
+};
+
+<template>
+  {{formatPrice @cents}}
+  {{formatPrice @cents "EUR"}}
+
+  <Price @label={{formatPrice @cents}} />
+</template>
 ```
 
+  <p>{{t 'templates-how-to.invoke-function.no-arguments' htmlSafe=true}}</p>
+
 ```hbs
-{{this.myFunction a b}}
+{{(this.myFunction)}}
+
+<Price @label={{(this.myFunction)}} />
 ```
+
+<RefList as |x|>
+  <x.guide @to="components/helper-functions/">
+    {{t 'refs.guides.helper-functions' htmlSafe=true}}
+  </x.guide>
+</RefList>
 
   </Section>
 
@@ -131,19 +204,32 @@ functionA(argA, argB, { argC: functionB(argD) });
 
 ```hbs
 {{@argumentA}}
+{{@user.address.city}}
+{{this.property}}
 ```
 
-```hbs
-{{get @argObject 'property-name'}}
-{{get @argObject this.dynamicProperty}}
+  <p>{{t 'templates-how-to.access-properties.dynamic' htmlSafe=true}}</p>
+
+```gjs
+import { get } from '@ember/helper';
+
+<template>
+  {{get @argObject 'property-name'}}
+  {{get @argObject @dynamicProperty}}
+</template>
 ```
 
   </Section>
 
   <Section @id="access-array-indices">
 
-```hbs
-{{get @someArray 0}}
+```gjs
+import { get } from '@ember/helper';
+
+<template>
+  {{get @someArray 0}}
+  {{get @someArray @index}}
+</template>
 ```
 
   </Section>
@@ -153,6 +239,8 @@ functionA(argA, argB, { argC: functionB(argD) });
 ```hbs
 {{#if this.condition}}
   ...
+{{else if this.otherCondition}}
+  ...
 {{else}}
   ...
 {{/if}}
@@ -161,36 +249,42 @@ functionA(argA, argB, { argC: functionB(argD) });
 ```hbs
 {{#unless this.condition}}
   ...
-{{else}}
-  ...
 {{/unless}}
 ```
 
+  <p>{{t 'templates-how-to.conditions.inline' htmlSafe=true}}</p>
+
+```hbs
+<div class={{if @isActive "active" "inactive"}}>
+  {{if @name @name "No name"}}
+</div>
+```
+
+  <p>{{t 'templates-how-to.conditions.operators' htmlSafe=true}}</p>
+
 ```hbs
 {{#if (eq @a @b)}}
-{{else}}
+  ...
 {{/if}}
-```
 
-```hbs
 {{#if (or (eq @a @b) (gt @c 0))}}
-{{else}}
+  ...
 {{/if}}
+
+{{if (and @a (not @b)) "is true" "is false"}}
 ```
 
-```hbs
-{{if (eq @a b) "is true" "is false"}}
-{{unless (eq @a b) "is negated true" "is negated false"}}
-```
-
-{{t 'component.guide-section.references'}}
- - https://github.com/emberjs/rfcs/pull/562
- - https://github.com/emberjs/rfcs/pull/560
-
+<RefList as |x|>
+  <x.guide @to="components/conditional-content/">
+    {{t 'refs.guides.conditional-content' htmlSafe=true}}
+  </x.guide>
+  <x.rfc @id="560" />
+  <x.rfc @id="562" />
+</RefList>
 
   </Section>
 
-  <Section @id="define-variables" as |t|>
+  <Section @id="define-variables">
 
 ```hbs
 {{#let (array 1 2 3) as |list|}}
@@ -200,25 +294,50 @@ functionA(argA, argB, { argC: functionB(argD) });
 {{/let}}
 ```
 
-{{t 'templates-how-to.define-variables.example'}}
+  <p>{{t 'templates-how-to.define-variables.example' htmlSafe=true}}</p>
 
+  <p>{{t 'templates-how-to.define-variables.javascript' htmlSafe=true}}</p>
 
-<Ref::List as |x|>
+```gjs
+const list = [1, 2, 3];
+
+<template>
+  {{#each list as |number|}}
+    {{number}}
+  {{/each}}
+</template>
+```
+
+<RefList as |x|>
   <x.api @to="classes/Ember.Templates.helpers/methods/let?anchor=let">
-    {{t 'refs.let'}}
+    {{t 'refs.let' htmlSafe=true}}
   </x.api>
   <x.api @to="classes/Ember.Templates.helpers/methods/array?anchor=array">
-    {{t 'refs.array'}}
+    {{t 'refs.array' htmlSafe=true}}
   </x.api>
-</Ref::List>
+</RefList>
 
   </Section>
 
   <Section @id="math">
 
-<Ref::List as |x|>
+```gjs
+const add = (a, b) => a + b;
+
+<template>
+  {{add @count 1}}
+
+  {{#if (gt @count 10)}}
+    More than ten.
+  {{else if (lte @count 0)}}
+    None.
+  {{/if}}
+</template>
+```
+
+<RefList as |x|>
   <x.rfc @id="561" />
-</Ref::List>
+</RefList>
 
   </Section>
 

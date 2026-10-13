@@ -1,10 +1,23 @@
 # Common translations for linking to
 # things in the docs
-title: References
+title: Referências
 
-let: <code>let</code> on the Ember API docs
-array: <code>array</code> on the Ember API docs
+let: <code>let</code> na documentação da API do Ember
+array: <code>array</code> na documentação da API do Ember
+router-service: <code>RouterService</code> na documentação da API do Ember
+helper-module: <code>@ember/helper</code> na documentação da API do Ember
+
+guides:
+  template-tag: Template Tag Format nos Guias do Ember
+  arguments: Component Arguments and HTML Attributes nos Guias do Ember
+  block-content: Block Content nos Guias do Ember
+  component-state: Component State and Actions nos Guias do Ember
+  template-lifecycle: Template Lifecycle, DOM, and Modifiers nos Guias do Ember
+  looping: Looping Through Lists nos Guias do Ember
+  helper-functions: Helper Functions nos Guias do Ember
+  conditional-content: Conditional Content nos Guias do Ember
 
 rfcs:
-  561: "RFC: Adding Numeric Comparison Operators to Templates"
-
+  560: "RFC: Adicionando Operadores de Igualdade aos Templates"
+  561: "RFC: Adicionando Operadores de Comparação Numérica aos Templates"
+  562: "RFC: Adicionando Operadores Lógicos aos Templates"

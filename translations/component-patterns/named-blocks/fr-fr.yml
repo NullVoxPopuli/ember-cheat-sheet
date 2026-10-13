@@ -1,3 +1,7 @@
 title: Les Blocs Nommés - Named Block
 description: >
-  TODO: à traduire
+  Un composant avec plusieurs blocs permet à l’appelant de remplir plusieurs emplacements.
+  Chaque bloc est rendu avec <code>yield</code> et <code>to="name"</code>.
+  Utilisez <code>has-block</code> pour savoir si l’appelant a passé un bloc.
+
+usage: L’appelant remplit chaque bloc en le désignant par son nom.

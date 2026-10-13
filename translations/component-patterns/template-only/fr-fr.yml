@@ -1,3 +1,8 @@
 title: Les Composants sans Instance - Template-Only Components
 description: >
-  TODO: à traduire
+  C’est un composant sans classe.
+  Il n’a ni <code>this</code> ni état : ce qu’il affiche dépend donc uniquement de ses arguments.
+  Un fichier <code>.gjs</code> qui ne contient qu’un <code>&lt;template&gt;</code> est un composant sans instance.
+
+local: >
+  Assignez un <code>&lt;template&gt;</code> à une variable pour définir de petits composants dans le même fichier.

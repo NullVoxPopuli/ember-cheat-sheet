@@ -1,4 +1,5 @@
 title: Math
 description: >
-  These helpers aren't yet in ember itself. In the meantime, you may install <a href="https://github.com/shipshapecode/ember-math-helpers">ember-math-helpers</a> to get the helpers.
-  
+  The comparison helpers <code>gt</code>, <code>gte</code>, <code>lt</code>, and <code>lte</code> are part of Ember 7.3.
+  Ember has no helpers for arithmetic.
+  Write a function, and call it in the template.

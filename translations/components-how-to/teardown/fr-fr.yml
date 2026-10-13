@@ -1,3 +1,10 @@
 title: Faire une Action Lors de la Destruction
 description: >
-  TODO: à traduire
+  Un modificateur (<i>modifier</i>) peut retourner une fonction.
+  Cette fonction s’exécute avant que l’élément quitte le DOM, et avant que le modificateur s’exécute à nouveau.
+  Utilisez-la pour défaire ce que le modificateur a fait.
+
+destructor: >
+  Pour un travail qui n’est pas lié à un élément, utilisez <code>registerDestructor</code>.
+  Le destructeur s’exécute quand Ember détruit le composant, et il permet de garder le nettoyage à côté de la mise en place.
+  Le hook <code>willDestroy</code> remplit le même rôle.

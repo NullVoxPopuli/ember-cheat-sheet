@@ -3,7 +3,7 @@ description: >
   Any HTML attribute, as available in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">MDN list of HTML Attributes</a>
 
 splattributes: >
-  There is also splatted attributes or "splattributes", which represent forwarding all passed attributes from a calling context
+  There are also splatted attributes or "splattributes", which represent forwarding all passed attributes from a calling context
   to the element which has <code>...attributes</code> on it. Note that <em>arguments</em> are not included in <code>...attributes</code>.
 
   In this example below, if this div were to represent the template for <code>SomeComponent</code> above, the <code>class</code>,

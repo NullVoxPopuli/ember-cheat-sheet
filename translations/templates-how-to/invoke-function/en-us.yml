@@ -1,3 +1,10 @@
 title: Invoking Functions
 description: >
-  TODO: Write this
+  To call a function, write its name and then the arguments, as you do for a helper.
+  The function can be an import, a local variable, an argument, or a property of <code>this</code>.
+
+no-arguments: >
+  A function with arguments is always called.
+  A function without arguments is called when its result goes directly into the page.
+  Where the function is the value of an argument, add parentheses to call it.
+  Without the parentheses, the argument receives the function itself, not its result.

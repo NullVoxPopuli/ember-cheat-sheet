@@ -1,3 +1,4 @@
 title: Arguments
 description: >
-  Data passed to a component, helper, or modifier
+  Data that the caller passes to a component, a helper, or a modifier.
+  The name of a component argument starts with <code>@</code>, for the caller and inside the component.

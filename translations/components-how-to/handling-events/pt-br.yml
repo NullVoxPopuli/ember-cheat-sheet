@@ -1,3 +1,5 @@
-title: Handling Events
+title: Tratando Eventos
 description: >
-  TODO: write this
+  O modifier <code>on</code> adiciona um event listener a um elemento, e o handler recebe o evento.
+  Use <code>fn</code> para passar argumentos antes do evento.
+  Defina o handler como uma arrow function em um campo da classe, para que <code>this</code> seja sempre o componente.

@@ -1,3 +1,6 @@
-title: Arguments
+title: 引数
 description: >
-  TODO: write this
+  引数は、呼び出し側がコンポーネントに渡す値です。テンプレートでは<code>@name</code>で、クラスでは<code>this.args.name</code>で引数を読み取ります。引数は呼び出し側のものなので、コンポーネントが引数に代入することはできません。呼び出し側が新しい値を渡すと、その引数を読み取っているすべての箇所が更新されます。
+
+signature: >
+  <code>.gts</code>ファイルでは、シグネチャで引数、ブロック、そして<code>...attributes</code>を受け取る要素を記述します。

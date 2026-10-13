@@ -1,3 +1,6 @@
 title: yield
 description: >
-  TODO: write this
+  <code>yield</code>, çağıranın bileşene geçtiği bloğu render eder.
+  <code>yield</code> ifadesinden sonraki her değer bir blok parametresi olur.
+  Çağıran, blok parametrelerini <code>as |...|</code> ifadesindeki boru karakterleri arasında alır.
+  İsimlendirilmiş bir bloğu render etmek için <code>to="name"</code> kullanın.

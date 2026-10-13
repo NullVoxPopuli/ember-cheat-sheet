@@ -1,0 +1,3 @@
+title: テンプレートタグ
+description: >
+  <code>&lt;template&gt;</code>タグは、<code>.gjs</code>や<code>.gts</code>ファイルの中でコンポーネントのテンプレートを保持します。テンプレートでは、スコープ内にあるすべてのJavaScriptの値（たとえばインポートや<code>const</code>）を使えます。<code>&lt;template&gt;</code>だけを含むファイルは、テンプレートのみのコンポーネントをエクスポートします。クラス本体の中の<code>&lt;template&gt;</code>は、そのクラスのテンプレートです。

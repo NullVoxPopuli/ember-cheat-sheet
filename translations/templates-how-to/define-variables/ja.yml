@@ -1,6 +1,9 @@
-title: Defining Variables
+title: 変数を定義する
 description: >
-  Using <code>let</code> is the only way to define variables inline in templates. Because <code>let</code> is a block-helper, it means that scope is consistent with other blocks in templates as well. This is different from languages like JavaScript, where defining a variable is accessible to the "current scope" -- with <code>let</code>, you create a new scope.
+  テンプレートの中でインラインに変数を定義する方法は、<code>let</code>を使うことだけです。<code>let</code>はブロックヘルパーなので、スコープの扱いはテンプレートのほかのブロックと一貫しています。これは、定義した変数に「現在のスコープ」からアクセスできるJavaScriptなどの言語とは異なります。<code>let</code>では、新しいスコープを作ります。
 
 example: >
-  In this example, an array is created and then available within the <code>let</code> block as <code>list</code>. It can be iterated over just as any array defined in JavaScript would be.
+  この例では、配列を作成し、<code>let</code>ブロックの中で<code>list</code>として使えるようにしています。JavaScriptで定義した配列と同じように反復処理できます。
+
+javascript: >
+  <code>.gjs</code>や<code>.gts</code>ファイルでは、<code>&lt;template&gt;</code>の外にJavaScriptの変数を書くほうが簡単なことがよくあります。

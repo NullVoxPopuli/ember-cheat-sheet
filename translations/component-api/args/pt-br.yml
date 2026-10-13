@@ -1,3 +1,10 @@
-title: Arguments
+title: Argumentos
 description: >
-  TODO: write this
+  Argumentos são os valores que quem chama passa para um componente.
+  Leia um argumento no template com <code>@name</code> e, na classe, com <code>this.args.name</code>.
+  Um componente não pode atribuir valores aos seus argumentos, porque eles pertencem a quem o chamou.
+  Quando quem chama passa um novo valor, tudo o que lê o argumento é atualizado.
+
+signature: >
+  Em um arquivo <code>.gts</code>, uma assinatura (signature) descreve os argumentos, os blocos
+  e o elemento que recebe <code>...attributes</code>.

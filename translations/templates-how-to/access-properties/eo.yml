@@ -1,3 +1,7 @@
 title: Aliro al Propraĵoj
 description: >
-  TODO: skribu ĉi tion
+  Uzu vojon kun punktoj por legi propraĵon de argumento, de <code>this</code>, aŭ de blokparametro.
+  Se valoro en la vojo mankas, la rezulto estas <code>undefined</code>, kaj ne okazas eraro.
+
+dynamic: >
+  Uzu la helpanton <code>get</code>, kiam la nomo de la propraĵo estas valoro, aŭ kiam ĝi ne estas valida identigilo.

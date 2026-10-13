@@ -1,3 +1,13 @@
 title: Koşullar
 description: >
-  TODO: Write this
+  <code>if</code>, değer truthy olduğunda bloğunu render eder.
+  Şablonlarda boş bir dizi falsy kabul edilir; bu, JavaScript'ten farklıdır.
+  <code>unless</code>, <code>if</code>'in tersidir.
+
+inline: >
+  Satır içi kullanımda <code>if</code>, koşul truthy olduğunda ikinci argümanını döndürür.
+  Değilse üçüncü argümanını döndürür.
+
+operators: >
+  Koşulları karşılaştırma ve mantıksal yardımcı fonksiyonlarla birleştirin.
+  Bunlar Ember 7.3'ün parçasıdır ve import gerektirmez.

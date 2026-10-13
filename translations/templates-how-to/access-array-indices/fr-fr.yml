@@ -1,3 +1,4 @@
 title: Accéder à un Élément d'un Tableau
 description: >
-  TODO: à traduire
+  Utilisez l’aide <code>get</code> avec l’indice.
+  L’indice peut être un littéral ou une valeur.

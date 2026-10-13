@@ -1,3 +1,9 @@
 title: Faire une Actions Lors d'un Changement de Propriétés
 description: >
-  TODO: à traduire
+  N’observez pas le changement. Dérivez la valeur.
+  Un getter qui lit un état suivi (<i>tracked</i>) ou des arguments donne un nouveau résultat dès que l’un d’eux change.
+  Ajoutez <code>@cached</code> quand le calcul est coûteux, pour que le getter ne s’exécute qu’une fois par changement.
+
+dom: >
+  Pour mettre à jour le DOM quand une valeur change, passez la valeur à un modificateur (<i>modifier</i>).
+  Le modificateur s’exécute à nouveau quand l’un de ses arguments change.

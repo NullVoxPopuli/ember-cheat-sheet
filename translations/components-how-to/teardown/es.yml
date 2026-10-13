@@ -1,3 +1,10 @@
-title: Do something when during teardown
+title: Hacer algo durante la limpieza (teardown)
 description: >
-  TODO: write this
+  Un modificador puede devolver una función.
+  Esa función se ejecuta antes de que el elemento salga del DOM, y antes de que el modificador se ejecute de nuevo.
+  Úsala para deshacer lo que hizo el modificador.
+
+destructor: >
+  Para el trabajo que no pertenece a un elemento, usa <code>registerDestructor</code>.
+  El destructor se ejecuta cuando Ember destruye el componente, y mantiene la limpieza junto a la preparación.
+  El hook <code>willDestroy</code> cumple la misma función.

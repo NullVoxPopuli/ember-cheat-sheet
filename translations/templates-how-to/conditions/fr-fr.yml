@@ -1,3 +1,13 @@
 title: Les Conditions
 description: >
-  TODO: à traduire
+  <code>if</code> rend son bloc quand la valeur est évaluée à vrai (<i>truthy</i>).
+  Dans les modèles, un tableau vide est évalué à faux (<i>falsy</i>), contrairement à JavaScript.
+  <code>unless</code> est le contraire de <code>if</code>.
+
+inline: >
+  En ligne, <code>if</code> retourne son deuxième argument quand la condition est évaluée à vrai.
+  Sinon, il retourne son troisième argument.
+
+operators: >
+  Combinez les conditions avec les aides de comparaison et les aides logiques.
+  Elles font partie d’Ember 7.3 et ne nécessitent aucun import.

@@ -1,3 +1,10 @@
 title: Argümanlar
 description: >
-  TODO: write this
+  Argümanlar, çağıranın bir bileşene geçtiği değerlerdir.
+  Bir argümanı şablonda <code>@name</code> ile, sınıfta ise <code>this.args.name</code> ile okuyun.
+  Bir bileşen kendi argümanlarına atama yapamaz, çünkü argümanların sahibi çağırandır.
+  Çağıran yeni bir değer geçtiğinde, argümanı okuyan her şey güncellenir.
+
+signature: >
+  Bir <code>.gts</code> dosyasında imza (signature); argümanları, blokları
+  ve <code>...attributes</code> alan öğeyi tanımlar.
