@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@docfy/ember':
-        specifier: ^0.14.2
-        version: 0.14.2(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))
+        specifier: ^0.14.3
+        version: 0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))
       '@embroider/macros':
         specifier: ^1.21.3
         version: 1.21.3(@babel/core@7.29.7)(@glint/template@1.9.0)
@@ -46,8 +46,8 @@ importers:
         specifier: ^7.29.10
         version: 7.29.10
       '@docfy/ember-vite':
-        specifier: ^0.14.2
-        version: 0.14.2(@embroider/vite@1.7.15(@babel/core@7.29.7)(@embroider/core@4.6.9(@glint/template@1.9.0))(@glint/template@1.9.0)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1)))(unified@11.0.5)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1))
+        specifier: ^0.14.3
+        version: 0.14.3(@embroider/vite@1.7.15(@babel/core@7.29.7)(@embroider/core@4.6.9(@glint/template@1.9.0))(@glint/template@1.9.0)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1)))(unified@11.0.5)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1))
       '@ember-intl/vite':
         specifier: ^2.2.1
         version: 2.2.1
@@ -736,15 +736,15 @@ packages:
     resolution: {integrity: sha512-A/TvvoATUBwooaMwZDghp0lxkCg0l22kvKNzZccxSysInCnC4nPb2qNYGjx8U1NlNajw0yN2py7OXG9FUr6JDg==}
     engines: {node: '>=22.22.2'}
 
-  '@docfy/ember-vite@0.14.2':
-    resolution: {integrity: sha512-ICh3GoztrOHwCXzd7wVHpmbd9aD05i4qyym8+jck2OAGjt52boZvIJALy1zLgq6S0wIfX6SNyrg2Hf+2xgP0UA==}
+  '@docfy/ember-vite@0.14.3':
+    resolution: {integrity: sha512-AlxIls7cNcizNkphkcc21rCY9BBWoGKMeGJtx1uAMMr0JpK9Y9t4O11zIo4hENCujk2hY6UqJIvuhXdduEbLLA==}
     engines: {node: '>=22.22.2'}
     peerDependencies:
       '@embroider/vite': ^1.0.0
       vite: '>= 6.0.0'
 
-  '@docfy/ember@0.14.2':
-    resolution: {integrity: sha512-TeQgY/MVT+egAyxk2vpg90iSkvc/Xe79wJIZfpOMD5WsAAIaJjCyE8FifAepSWwvMn5lp2wL9Ss5qXKBkdN7CQ==}
+  '@docfy/ember@0.14.3':
+    resolution: {integrity: sha512-XHKslyk5WBVgCTcDhgJGQCudwj/0wAELdcv8CAOC24ACkvZzZqT80c0u3PZUxZS6I4v51Wu0gzClerYkKd8xHA==}
     peerDependencies:
       ember-source: '>= 6.5.0'
 
@@ -6355,7 +6355,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@docfy/ember-vite@0.14.2(@embroider/vite@1.7.15(@babel/core@7.29.7)(@embroider/core@4.6.9(@glint/template@1.9.0))(@glint/template@1.9.0)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1)))(unified@11.0.5)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1))':
+  '@docfy/ember-vite@0.14.3(@embroider/vite@1.7.15(@babel/core@7.29.7)(@embroider/core@4.6.9(@glint/template@1.9.0))(@glint/template@1.9.0)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1)))(unified@11.0.5)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1))':
     dependencies:
       '@docfy/core': 0.14.2
       '@embroider/vite': 1.7.15(@babel/core@7.29.7)(@embroider/core@4.6.9(@glint/template@1.9.0))(@glint/template@1.9.0)(vite@8.3.4(@types/node@26.6.5)(terser@5.51.2)(yaml@2.9.1))
@@ -6372,7 +6372,7 @@ snapshots:
       - supports-color
       - unified
 
-  '@docfy/ember@0.14.2(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))':
+  '@docfy/ember@0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))':
     dependencies:
       '@docfy/core': 0.14.2
       '@embroider/addon-shim': 1.10.3
@@ -6888,21 +6888,15 @@ snapshots:
       '@percy/cli-command': 1.32.11(@typescript/typescript6@6.0.2)
       '@percy/cli-exec': 1.32.11(@typescript/typescript6@6.0.2)
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli-build@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:
       '@percy/cli-command': 1.32.11(@typescript/typescript6@6.0.2)
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli-command@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:
@@ -6923,11 +6917,8 @@ snapshots:
     dependencies:
       '@percy/cli-command': 1.32.11(@typescript/typescript6@6.0.2)
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli-doctor@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:
@@ -6954,11 +6945,8 @@ snapshots:
       cross-spawn: 7.0.6
       which: 2.0.2
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli-pdf@1.32.11':
     dependencies:
@@ -6973,11 +6961,8 @@ snapshots:
       '@percy/cli-command': 1.32.11(@typescript/typescript6@6.0.2)
       yaml: 2.9.1
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli-upload@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:
@@ -6985,11 +6970,8 @@ snapshots:
       fast-glob: 3.3.3
       probe-image-size: 7.4.0
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - typescript
-      - utf-8-validate
-      - worker-loader
 
   '@percy/cli@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:

@@ -11,15 +11,7 @@ const isTest = process.env.EMBER_ENV === "test";
 
 export default defineConfig({
   plugins: [
-    /**
-     * Docfy adds its own plugins to the config object that it receives.
-     * The prerender step builds a second time,
-     * so each build gets its own lists.
-     */
-    docfy({
-      root: import.meta.dirname,
-      config: { ...docfyConfig, plugins: [], remarkPlugins: [] },
-    }),
+    docfy({ root: import.meta.dirname, config: docfyConfig }),
     ember(),
     loadTranslations(),
     !isTest &&
