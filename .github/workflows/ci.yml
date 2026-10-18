@@ -16,7 +16,7 @@ jobs:
     name: "Lints"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: wyvox/action-setup-pnpm@v3
       - run: pnpm lint
   test:
@@ -25,13 +25,13 @@ jobs:
     env:
       PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: wyvox/action-setup-pnpm@v3
       - run: pnpm test
   build:
     name: "Build"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: wyvox/action-setup-pnpm@v3
       - run: pnpm build
