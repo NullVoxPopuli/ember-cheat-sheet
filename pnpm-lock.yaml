@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@docfy/ember':
         specifier: ^0.14.3
-        version: 0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))
+        version: 0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.2.1))
       '@embroider/macros':
         specifier: ^1.21.3
         version: 1.21.3(@babel/core@7.29.7)(@glint/template@1.9.0)
@@ -19,7 +19,7 @@ importers:
         version: 3.0.6(@embroider/core@4.6.9(@glint/template@1.9.0))
       '@glimmer/component':
         specifier: ^2.1.1
-        version: 2.1.1
+        version: 2.2.1
       decorator-transforms:
         specifier: ^2.4.0
         version: 2.4.0(@babel/core@7.29.7)
@@ -31,7 +31,7 @@ importers:
         version: 9.0.3
       ember-source:
         specifier: ~7.3.0
-        version: 7.3.0(@glimmer/component@2.1.1)
+        version: 7.3.0(@glimmer/component@2.2.1)
     devDependencies:
       '@babel/core':
         specifier: ^7.29.7
@@ -68,7 +68,7 @@ importers:
         version: 7.3.1
       '@glint/ember-tsc':
         specifier: ^1.11.6
-        version: 1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.1.1))
+        version: 1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.2.1))
       '@glint/template':
         specifier: ^1.9.0
         version: 1.9.0
@@ -113,7 +113,7 @@ importers:
         version: 8.0.1(@babel/core@7.29.7)(@ember/test-helpers@5.7.0(@babel/core@7.29.7))(@ember/test-waiters@4.1.2)(axe-core@4.14.0)(qunit@2.26.0)
       ember-content-mapper:
         specifier: ^0.3.1
-        version: 0.3.1(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.1.1))
+        version: 0.3.1(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.2.1))
       ember-qunit:
         specifier: ^9.2.0
         version: 9.2.0(@ember/test-helpers@5.7.0(@babel/core@7.29.7))(qunit@2.26.0)
@@ -776,6 +776,10 @@ packages:
     resolution: {integrity: sha512-GYbaiC1v9inbiwVg5s+Sd14Jc66NYxg23mEOocgWAZFCtOfhMnRLaLAA6SytW76myVVYImGHX5PFK4PVuH2yng==}
     engines: {node: 12.* || 14.* || >= 16}
 
+  '@embroider/addon-shim@1.11.0':
+    resolution: {integrity: sha512-vXjhIOtvrns9IBFlgEN1imSeXtuVIlLypaDexu7xzsvB4Ef6yruhH33DNd9OmO0nXIB4SbwdkIwEsLYnhrujqA==}
+    engines: {node: 12.* || 14.* || >= 16}
+
   '@embroider/core@4.6.9':
     resolution: {integrity: sha512-mI5yjBkKrJI7BzLW/si13ORIzDXJvxpGlm7NhAH6Fs2/TgJCDI+tF9X5lj9Ib0a1Lgj31glOVo5wmjT/HXzYRQ==}
     engines: {node: '>= 20.19.*'}
@@ -883,8 +887,8 @@ packages:
     resolution: {integrity: sha512-8eiNzycuFhy3mZsi5EVO8JpO3H8l7/kSCl4Gk4iUew9hJuzYFqAAD6kqgeEup3+YZ9hL+5cjjorGzrRLkYuURg==}
     engines: {node: '>=6'}
 
-  '@glimmer/component@2.1.1':
-    resolution: {integrity: sha512-zFZFaMbWy+9WOcDg/kCgrkGgqkLT39EE4FgyFD0MIkQO5coQsrRZyLsiBu1tbchyM+8hT8jAv+EQVUd8u+MdSQ==}
+  '@glimmer/component@2.2.1':
+    resolution: {integrity: sha512-EfbDXxqz/50uM0DqiqFi1cwZifN8M2Zqe1vEpLirImZTaAVGul3WJDgE8fhItF+SQ63Lnbru/gFO4Kb+I90zZg==}
     engines: {node: '>= 18'}
 
   '@glimmer/env@0.1.7':
@@ -6372,13 +6376,13 @@ snapshots:
       - supports-color
       - unified
 
-  '@docfy/ember@0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.1.1))':
+  '@docfy/ember@0.14.3(@babel/core@7.29.7)(@glint/template@1.9.0)(ember-source@7.3.0(@glimmer/component@2.2.1))':
     dependencies:
       '@docfy/core': 0.14.2
       '@embroider/addon-shim': 1.10.3
       '@embroider/macros': 1.21.3(@babel/core@7.29.7)(@glint/template@1.9.0)
       decorator-transforms: 2.4.0(@babel/core@7.29.7)
-      ember-source: 7.3.0(@glimmer/component@2.1.1)
+      ember-source: 7.3.0(@glimmer/component@2.2.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -6428,6 +6432,8 @@ snapshots:
       semver: 7.8.5
     transitivePeerDependencies:
       - supports-color
+
+  '@embroider/addon-shim@1.11.0': {}
 
   '@embroider/core@4.6.9(@glint/template@1.9.0)':
     dependencies:
@@ -6610,12 +6616,9 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.3.1
 
-  '@glimmer/component@2.1.1':
+  '@glimmer/component@2.2.1':
     dependencies:
-      '@embroider/addon-shim': 1.10.3
-      '@glimmer/env': 0.1.7
-    transitivePeerDependencies:
-      - supports-color
+      '@embroider/addon-shim': 1.11.0
 
   '@glimmer/env@0.1.7': {}
 
@@ -6640,7 +6643,7 @@ snapshots:
     dependencies:
       '@glimmer/interfaces': 0.94.6
 
-  '@glint/ember-tsc@1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.1.1))':
+  '@glint/ember-tsc@1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.2.1))':
     dependencies:
       '@glimmer/syntax': 0.95.0
       '@glint/template': 1.9.0
@@ -6661,7 +6664,7 @@ snapshots:
       vscode-languageserver-textdocument: 1.0.15
       vscode-uri: 3.2.0
     optionalDependencies:
-      ember-source: 7.3.0(@glimmer/component@2.1.1)
+      ember-source: 7.3.0(@glimmer/component@2.2.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -6797,7 +6800,7 @@ snapshots:
       eslint-import-resolver-typescript: 4.4.5(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0)
       eslint-plugin-decorator-position: 6.1.1(@babel/eslint-parser@8.0.7(@babel/core@7.29.7)(eslint@10.12.0))(eslint@10.12.0)
       eslint-plugin-ember: 13.6.1(@babel/eslint-parser@8.0.7(@babel/core@7.29.7)(eslint@10.12.0))(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(@typescript/typescript6@6.0.2)(eslint@10.12.0)
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5)(eslint@10.12.0)
       eslint-plugin-json: 4.0.1
       eslint-plugin-n: 18.4.1(@typescript/typescript6@6.0.2)(eslint@10.12.0)
       eslint-plugin-simple-import-sort: 13.0.0(eslint@10.12.0)
@@ -6888,8 +6891,11 @@ snapshots:
       '@percy/cli-command': 1.32.11(@typescript/typescript6@6.0.2)
       '@percy/cli-exec': 1.32.11(@typescript/typescript6@6.0.2)
     transitivePeerDependencies:
+      - bufferutil
       - supports-color
       - typescript
+      - utf-8-validate
+      - worker-loader
 
   '@percy/cli-build@1.32.11(@typescript/typescript6@6.0.2)':
     dependencies:
@@ -6945,8 +6951,11 @@ snapshots:
       cross-spawn: 7.0.6
       which: 2.0.2
     transitivePeerDependencies:
+      - bufferutil
       - supports-color
       - typescript
+      - utf-8-validate
+      - worker-loader
 
   '@percy/cli-pdf@1.32.11':
     dependencies:
@@ -8448,9 +8457,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-content-mapper@0.3.1(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.1.1)):
+  ember-content-mapper@0.3.1(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.2.1)):
     dependencies:
-      '@glint/ember-tsc': 1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.1.1))
+      '@glint/ember-tsc': 1.11.6(@typescript/typescript6@6.0.2)(ember-source@7.3.0(@glimmer/component@2.2.1))
       tinypool: 2.1.2
       vscode-jsonrpc: 9.0.3
     transitivePeerDependencies:
@@ -8544,11 +8553,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-source@7.3.0(@glimmer/component@2.1.1):
+  ember-source@7.3.0(@glimmer/component@2.2.1):
     dependencies:
       '@babel/core': 7.29.7
       '@embroider/addon-shim': 1.10.3
-      '@glimmer/component': 2.1.1
+      '@glimmer/component': 2.2.1
       '@simple-dom/interface': 1.4.0
       backburner.js: 2.8.0
       broccoli-file-creator: 2.1.1
@@ -8764,7 +8773,7 @@ snapshots:
       tinyglobby: 0.2.17
       unrs-resolver: 1.12.2
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5)(eslint@10.12.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -8825,7 +8834,7 @@ snapshots:
       eslint: 10.12.0
       eslint-compat-utils: 0.5.1(eslint@10.12.0)
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0))(eslint@10.12.0):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.71.2(@typescript/typescript6@6.0.2)(eslint@10.12.0))(eslint-import-resolver-typescript@4.4.5)(eslint@10.12.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.2.0
