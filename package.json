@@ -46,7 +46,7 @@
     "decorator-transforms": "^2.4.0",
     "ember-intl": "^9.3.0",
     "ember-page-title": "^9.0.3",
-    "ember-source": "~7.3.0"
+    "ember-source": "~7.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
